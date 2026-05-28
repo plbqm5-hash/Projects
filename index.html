@@ -260,22 +260,46 @@
 
     function norm(s) { return (s || '').toLowerCase().trim(); }
 
+    // Generate query variants by stripping common English suffixes,
+    // so "alleges"/"alleging"/"alleged" all hit "allege".
+    function expandQuery(q) {
+      const out = new Set([q]);
+      if (q.length >= 4) {
+        if (q.endsWith('ies'))  { out.add(q.slice(0, -3) + 'y'); }
+        if (q.endsWith('ing'))  { out.add(q.slice(0, -3)); out.add(q.slice(0, -3) + 'e'); }
+        if (q.endsWith('ed'))   { out.add(q.slice(0, -1)); out.add(q.slice(0, -2)); }
+        if (q.endsWith('es'))   { out.add(q.slice(0, -1)); out.add(q.slice(0, -2)); }
+        else if (q.endsWith('s')) { out.add(q.slice(0, -1)); }
+      }
+      return [...out];
+    }
+
     function scoreEntry(entry, q) {
       if (!q) return 1;
+      const variants = expandQuery(q);
       const term = norm(entry.term);
       const syns = (entry.synonyms || []).map(norm);
       const rel = (entry.related || []).map(norm);
       const def = norm(entry.definition);
       const plain = norm(entry.plainEnglish);
 
-      if (term === q) return 1000;
-      if (syns.includes(q)) return 900;
-      if (term.startsWith(q)) return 800;
-      if (syns.some(s => s.startsWith(q))) return 700;
-      if (term.includes(q)) return 600;
-      if (syns.some(s => s.includes(q))) return 500;
-      if (rel.includes(q)) return 400;
-      if (rel.some(r => r.includes(q))) return 300;
+      let best = 0;
+      const bump = s => { if (s > best) best = s; };
+
+      for (const qv of variants) {
+        if (!qv) continue;
+        if (term === qv) bump(1000);
+        if (syns.includes(qv)) bump(900);
+        if (term.startsWith(qv)) bump(800);
+        if (qv.startsWith(term) && term.length >= 4) bump(800);
+        if (syns.some(s => s.startsWith(qv))) bump(700);
+        if (syns.some(s => qv.startsWith(s) && s.length >= 4)) bump(700);
+        if (term.includes(qv)) bump(600);
+        if (syns.some(s => s.includes(qv))) bump(500);
+        if (rel.includes(qv)) bump(400);
+        if (rel.some(r => r.includes(qv))) bump(300);
+      }
+      if (best > 0) return best;
       if (plain.includes(q)) return 200;
       if (def.includes(q)) return 100;
       return 0;
