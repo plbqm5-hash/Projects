@@ -197,6 +197,14 @@
       padding: 60px 20px;
       font-style: italic;
     }
+    .source {
+      font-size: 11px;
+      color: var(--muted);
+      font-style: italic;
+      margin-top: 12px;
+      padding-top: 8px;
+      border-top: 1px dashed var(--border);
+    }
     footer {
       text-align: center;
       color: var(--muted);
@@ -306,6 +314,7 @@
           ${entry.plainEnglish ? `<div class="plain">${escapeHtml(entry.plainEnglish)}</div>` : ''}
           ${synChips ? `<div class="group"><div class="group-label">Synonyms</div><div class="chips">${synChips}</div></div>` : ''}
           ${relChips ? `<div class="group"><div class="group-label">Related</div><div class="chips">${relChips}</div></div>` : ''}
+          ${entry.source ? `<div class="source">Source: ${escapeHtml(entry.source)} (public domain)</div>` : ''}
         </article>
       `;
     }
