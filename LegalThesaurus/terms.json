@@ -1,0 +1,2170 @@
+[
+  {
+    "term": "Plaintiff",
+    "category": "Civil Procedure",
+    "definition": "The party who initiates a lawsuit by filing a complaint, seeking a legal remedy against the defendant.",
+    "plainEnglish": "The person doing the suing.",
+    "synonyms": ["claimant", "complainant", "petitioner", "movant"],
+    "related": ["defendant", "complaint", "cause of action", "standing"]
+  },
+  {
+    "term": "Defendant",
+    "category": "Civil Procedure",
+    "definition": "The party against whom a lawsuit is brought and who must respond to the plaintiff's allegations.",
+    "plainEnglish": "The person being sued (or charged, in a criminal case).",
+    "synonyms": ["respondent", "accused", "appellee"],
+    "related": ["plaintiff", "answer", "counterclaim"]
+  },
+  {
+    "term": "Complaint",
+    "category": "Civil Procedure",
+    "definition": "The initial pleading filed by a plaintiff that states the basis for the lawsuit, the legal claims, and the relief sought.",
+    "plainEnglish": "The document that starts a lawsuit, explaining what happened and what the plaintiff wants.",
+    "synonyms": ["petition", "initial pleading", "claim"],
+    "related": ["answer", "pleading", "cause of action", "service of process"]
+  },
+  {
+    "term": "Answer",
+    "category": "Civil Procedure",
+    "definition": "The defendant's formal written response to the complaint, admitting or denying each allegation and raising any affirmative defenses.",
+    "plainEnglish": "The defendant's official reply to the lawsuit.",
+    "synonyms": ["response", "responsive pleading"],
+    "related": ["complaint", "affirmative defense", "counterclaim", "denial"]
+  },
+  {
+    "term": "Motion",
+    "category": "Civil Procedure",
+    "definition": "A formal request made to the court asking for a specific ruling or order, either before, during, or after trial.",
+    "plainEnglish": "An ask to the judge for something.",
+    "synonyms": ["application", "request", "petition"],
+    "related": ["order", "hearing", "motion to dismiss", "summary judgment"]
+  },
+  {
+    "term": "Motion to Dismiss",
+    "category": "Civil Procedure",
+    "definition": "A request asking the court to throw out a case on legal grounds before reaching the merits, often for failure to state a claim or lack of jurisdiction.",
+    "plainEnglish": "A request to throw out the case because it's legally defective.",
+    "synonyms": ["12(b)(6) motion", "demurrer"],
+    "related": ["pleading", "failure to state a claim", "jurisdiction"]
+  },
+  {
+    "term": "Summary Judgment",
+    "category": "Civil Procedure",
+    "definition": "A judgment entered without a full trial when there is no genuine dispute over any material fact and one party is entitled to judgment as a matter of law.",
+    "plainEnglish": "Winning (or losing) the case before trial because the facts aren't really in dispute.",
+    "synonyms": ["Rule 56 motion", "judgment as a matter of law"],
+    "related": ["genuine issue of material fact", "motion", "directed verdict"]
+  },
+  {
+    "term": "Discovery",
+    "category": "Civil Procedure",
+    "definition": "The pretrial process by which parties exchange information and evidence relevant to the case through depositions, interrogatories, document requests, and admissions.",
+    "plainEnglish": "The phase before trial where each side digs up information from the other.",
+    "synonyms": ["pretrial discovery", "information exchange"],
+    "related": ["deposition", "interrogatory", "subpoena", "production of documents"]
+  },
+  {
+    "term": "Deposition",
+    "category": "Civil Procedure",
+    "definition": "Sworn out-of-court testimony of a witness, taken under oath and recorded for use in pretrial discovery or at trial.",
+    "plainEnglish": "An interview under oath, recorded by a court reporter, used to lock in a witness's story.",
+    "synonyms": ["sworn statement", "examination before trial"],
+    "related": ["discovery", "transcript", "subpoena", "witness"]
+  },
+  {
+    "term": "Interrogatory",
+    "category": "Civil Procedure",
+    "definition": "A written question served by one party on another that must be answered in writing and under oath as part of discovery.",
+    "plainEnglish": "A written question the other side has to answer in writing.",
+    "synonyms": ["written question", "rog"],
+    "related": ["discovery", "request for production", "request for admission"]
+  },
+  {
+    "term": "Subpoena",
+    "category": "Civil Procedure",
+    "definition": "A formal court order requiring a person to appear and give testimony (subpoena ad testificandum) or produce documents (subpoena duces tecum).",
+    "plainEnglish": "A court order making someone show up to testify or hand over documents.",
+    "synonyms": ["court order", "judicial summons"],
+    "related": ["summons", "deposition", "duces tecum", "service of process"]
+  },
+  {
+    "term": "Summons",
+    "category": "Civil Procedure",
+    "definition": "A formal notice to a defendant that a lawsuit has been filed and that they must appear in court or respond by a certain date.",
+    "plainEnglish": "The official notice that someone is being sued.",
+    "synonyms": ["citation", "writ"],
+    "related": ["complaint", "service of process", "default judgment"]
+  },
+  {
+    "term": "Service of Process",
+    "category": "Civil Procedure",
+    "definition": "The formal delivery of legal documents (such as a summons and complaint) to a party to give them notice of legal proceedings.",
+    "plainEnglish": "Officially handing the lawsuit papers to the defendant.",
+    "synonyms": ["service", "personal service"],
+    "related": ["summons", "complaint", "due process"]
+  },
+  {
+    "term": "Jurisdiction",
+    "category": "Civil Procedure",
+    "definition": "The authority of a court to hear and decide a case, including authority over the subject matter and the parties.",
+    "plainEnglish": "Whether this particular court is allowed to hear this case.",
+    "synonyms": ["authority", "competence", "power"],
+    "related": ["personal jurisdiction", "subject matter jurisdiction", "venue"]
+  },
+  {
+    "term": "Personal Jurisdiction",
+    "category": "Civil Procedure",
+    "definition": "A court's power over the parties in a case, generally requiring minimum contacts between the defendant and the forum state.",
+    "plainEnglish": "Whether the court has authority over this particular defendant.",
+    "synonyms": ["in personam jurisdiction"],
+    "related": ["minimum contacts", "long-arm statute", "due process"]
+  },
+  {
+    "term": "Subject Matter Jurisdiction",
+    "category": "Civil Procedure",
+    "definition": "A court's power to hear a particular type of case, such as federal question or diversity jurisdiction in federal court.",
+    "plainEnglish": "Whether this kind of case belongs in this type of court at all.",
+    "synonyms": ["SMJ"],
+    "related": ["federal question", "diversity jurisdiction", "removal"]
+  },
+  {
+    "term": "Venue",
+    "category": "Civil Procedure",
+    "definition": "The proper geographic location for trying a case, typically based on where parties reside or where events occurred.",
+    "plainEnglish": "Which courthouse (geographically) is the right place to try the case.",
+    "synonyms": ["forum", "location"],
+    "related": ["jurisdiction", "forum non conveniens", "transfer"]
+  },
+  {
+    "term": "Standing",
+    "category": "Civil Procedure",
+    "definition": "The legal right to bring a lawsuit, requiring an injury in fact, causation, and redressability.",
+    "plainEnglish": "Whether this person is the right party to be bringing this lawsuit.",
+    "synonyms": ["locus standi", "right to sue"],
+    "related": ["injury in fact", "ripeness", "mootness", "case or controversy"]
+  },
+  {
+    "term": "Class Action",
+    "category": "Civil Procedure",
+    "definition": "A lawsuit in which one or more plaintiffs sue on behalf of a larger group of similarly situated people.",
+    "plainEnglish": "One lawsuit brought by a few people on behalf of many.",
+    "synonyms": ["representative action", "Rule 23 action"],
+    "related": ["certification", "named plaintiff", "class representative"]
+  },
+  {
+    "term": "Counterclaim",
+    "category": "Civil Procedure",
+    "definition": "A claim brought by a defendant against a plaintiff in the same lawsuit, asserting that the plaintiff is liable to the defendant.",
+    "plainEnglish": "The defendant's own lawsuit against the plaintiff, filed inside the same case.",
+    "synonyms": ["cross-action"],
+    "related": ["cross-claim", "compulsory counterclaim", "permissive counterclaim"]
+  },
+  {
+    "term": "Cross-Claim",
+    "category": "Civil Procedure",
+    "definition": "A claim brought by one party against a co-party (e.g., one defendant against another defendant) in the same lawsuit.",
+    "plainEnglish": "When co-defendants (or co-plaintiffs) sue each other within the same case.",
+    "synonyms": [],
+    "related": ["counterclaim", "joinder", "third-party complaint"]
+  },
+  {
+    "term": "Voir Dire",
+    "category": "Civil Procedure",
+    "definition": "The process of questioning prospective jurors to determine their suitability and uncover potential bias.",
+    "plainEnglish": "Questioning potential jurors to pick the jury.",
+    "synonyms": ["jury selection"],
+    "related": ["peremptory challenge", "challenge for cause", "venire"]
+  },
+  {
+    "term": "Peremptory Challenge",
+    "category": "Civil Procedure",
+    "definition": "A party's right to dismiss a potential juror without stating a reason, limited in number and subject to anti-discrimination rules.",
+    "plainEnglish": "Striking a juror without having to explain why.",
+    "synonyms": [],
+    "related": ["voir dire", "challenge for cause", "Batson challenge"]
+  },
+  {
+    "term": "Challenge for Cause",
+    "category": "Civil Procedure",
+    "definition": "A request to remove a prospective juror based on a specific reason such as bias or inability to be impartial.",
+    "plainEnglish": "Striking a juror with a stated, valid reason.",
+    "synonyms": [],
+    "related": ["voir dire", "peremptory challenge", "bias"]
+  },
+  {
+    "term": "Verdict",
+    "category": "Civil Procedure",
+    "definition": "The formal decision of a jury (or judge in a bench trial) on the issues of fact submitted to it.",
+    "plainEnglish": "The jury's (or judge's) final decision in the case.",
+    "synonyms": ["finding", "decision"],
+    "related": ["judgment", "jury", "directed verdict"]
+  },
+  {
+    "term": "Judgment",
+    "category": "Civil Procedure",
+    "definition": "The official decision of a court resolving a dispute and determining the rights and obligations of the parties.",
+    "plainEnglish": "The court's final ruling that ends the case.",
+    "synonyms": ["decree", "ruling", "order"],
+    "related": ["verdict", "appeal", "final judgment"]
+  },
+  {
+    "term": "Appeal",
+    "category": "Civil Procedure",
+    "definition": "A request to a higher court to review and change the decision of a lower court.",
+    "plainEnglish": "Asking a higher court to overturn the lower court's ruling.",
+    "synonyms": ["review"],
+    "related": ["appellate court", "de novo", "abuse of discretion"]
+  },
+  {
+    "term": "De Novo",
+    "category": "Civil Procedure",
+    "definition": "A standard of appellate review in which the higher court considers the matter anew, without deference to the lower court's conclusions on issues of law.",
+    "plainEnglish": "The appeals court looks at it fresh, without giving weight to what the trial court decided.",
+    "synonyms": ["anew", "from the beginning"],
+    "related": ["abuse of discretion", "clear error", "standard of review"]
+  },
+  {
+    "term": "Abuse of Discretion",
+    "category": "Civil Procedure",
+    "definition": "A standard of appellate review requiring the appellant to show that the lower court's decision was arbitrary, unreasonable, or based on an erroneous view of the law.",
+    "plainEnglish": "Reversing a trial judge only if they got it really wrong, not just because the appeals court would have decided differently.",
+    "synonyms": [],
+    "related": ["de novo", "standard of review", "clear error"]
+  },
+  {
+    "term": "Res Judicata",
+    "category": "Civil Procedure",
+    "definition": "The doctrine that a final judgment on the merits by a competent court bars the same parties from relitigating the same claim.",
+    "plainEnglish": "You can't sue over the same thing twice once it's been decided.",
+    "synonyms": ["claim preclusion"],
+    "related": ["collateral estoppel", "issue preclusion", "stare decisis"]
+  },
+  {
+    "term": "Collateral Estoppel",
+    "category": "Civil Procedure",
+    "definition": "The doctrine that prevents a party from relitigating an issue of fact or law that was actually litigated and necessarily decided in a prior action.",
+    "plainEnglish": "You can't re-fight a specific issue that's already been decided in an earlier case.",
+    "synonyms": ["issue preclusion"],
+    "related": ["res judicata", "claim preclusion"]
+  },
+  {
+    "term": "Stare Decisis",
+    "category": "Civil Procedure",
+    "definition": "The doctrine that courts should follow precedent and not disturb settled matters, promoting consistency and predictability in the law.",
+    "plainEnglish": "Courts follow what earlier courts decided.",
+    "synonyms": ["precedent", "binding authority"],
+    "related": ["precedent", "binding authority", "persuasive authority"]
+  },
+  {
+    "term": "Pro Se",
+    "category": "Civil Procedure",
+    "definition": "Representing oneself in court without an attorney.",
+    "plainEnglish": "Acting as your own lawyer.",
+    "synonyms": ["self-represented", "in propria persona", "pro per"],
+    "related": ["right to counsel", "appearance"]
+  },
+  {
+    "term": "Amicus Curiae",
+    "category": "Civil Procedure",
+    "definition": "A 'friend of the court'—a non-party who, with leave of court, files a brief offering information or argument relevant to the case.",
+    "plainEnglish": "An outsider, usually an organization, who weighs in on a case they're not actually a party to.",
+    "synonyms": ["friend of the court"],
+    "related": ["amicus brief", "intervention"]
+  },
+  {
+    "term": "In Camera",
+    "category": "Civil Procedure",
+    "definition": "A proceeding held in private, typically in the judge's chambers, outside the presence of the jury or public.",
+    "plainEnglish": "Done privately, in the judge's chambers.",
+    "synonyms": ["in chambers", "private review"],
+    "related": ["ex parte", "sealed", "confidential"]
+  },
+  {
+    "term": "Ex Parte",
+    "category": "Civil Procedure",
+    "definition": "An action or communication involving only one party, without notice to or argument from the other side.",
+    "plainEnglish": "Done with only one side present.",
+    "synonyms": ["one-sided"],
+    "related": ["temporary restraining order", "in camera", "notice"]
+  },
+  {
+    "term": "Forum Non Conveniens",
+    "category": "Civil Procedure",
+    "definition": "A doctrine allowing a court to decline jurisdiction when another forum would be more convenient and just for the parties.",
+    "plainEnglish": "When the court says 'this case really belongs somewhere else more convenient.'",
+    "synonyms": [],
+    "related": ["venue", "transfer", "jurisdiction"]
+  },
+  {
+    "term": "Removal",
+    "category": "Civil Procedure",
+    "definition": "The transfer of a case from state court to federal court when the case could have originally been filed in federal court.",
+    "plainEnglish": "Moving a state-court case to federal court.",
+    "synonyms": [],
+    "related": ["remand", "federal question", "diversity jurisdiction"]
+  },
+  {
+    "term": "Remand",
+    "category": "Civil Procedure",
+    "definition": "Sending a case back to a lower court for further proceedings, or returning a removed case to state court.",
+    "plainEnglish": "Sending the case back—either to the trial court after appeal, or to state court after removal.",
+    "synonyms": [],
+    "related": ["removal", "appeal", "reverse"]
+  },
+  {
+    "term": "Tort",
+    "category": "Torts",
+    "definition": "A civil wrong, other than breach of contract, for which the law provides a remedy in the form of damages.",
+    "plainEnglish": "A wrongful act (not a contract violation) that lets the injured person sue.",
+    "synonyms": ["civil wrong", "delict"],
+    "related": ["negligence", "intentional tort", "strict liability"]
+  },
+  {
+    "term": "Negligence",
+    "category": "Torts",
+    "definition": "Failure to exercise the standard of care that a reasonably prudent person would exercise under similar circumstances, resulting in harm.",
+    "plainEnglish": "Carelessness that causes injury.",
+    "synonyms": ["carelessness", "lack of due care"],
+    "related": ["duty", "breach", "causation", "damages", "reasonable person"]
+  },
+  {
+    "term": "Duty",
+    "category": "Torts",
+    "definition": "A legal obligation owed by one person to another, breach of which can give rise to liability in tort.",
+    "plainEnglish": "A legal obligation you owe to someone else (like to drive carefully).",
+    "synonyms": ["obligation", "standard of care"],
+    "related": ["negligence", "breach", "reasonable person"]
+  },
+  {
+    "term": "Breach",
+    "category": "Torts",
+    "definition": "Failure to meet a legal duty or obligation, whether in tort (breach of duty of care) or contract (breach of promise).",
+    "plainEnglish": "Failing to do what you were legally required to do.",
+    "synonyms": ["violation", "infraction"],
+    "related": ["duty", "negligence", "breach of contract"]
+  },
+  {
+    "term": "Causation",
+    "category": "Torts",
+    "definition": "The causal link between a defendant's conduct and the plaintiff's harm, generally requiring both actual cause and proximate cause.",
+    "plainEnglish": "Proving the defendant's conduct actually caused the harm.",
+    "synonyms": ["cause", "causal connection"],
+    "related": ["but-for causation", "proximate cause", "negligence"]
+  },
+  {
+    "term": "Proximate Cause",
+    "category": "Torts",
+    "definition": "A legal limitation on liability requiring that the harm be a reasonably foreseeable consequence of the defendant's conduct.",
+    "plainEnglish": "The cause has to be close enough and foreseeable enough that it's fair to hold the defendant responsible.",
+    "synonyms": ["legal cause", "foreseeable cause"],
+    "related": ["but-for causation", "foreseeability", "intervening cause"]
+  },
+  {
+    "term": "But-For Causation",
+    "category": "Torts",
+    "definition": "Actual cause—the harm would not have occurred but for the defendant's conduct.",
+    "plainEnglish": "If the defendant hadn't done it, this harm wouldn't have happened.",
+    "synonyms": ["cause in fact", "actual cause", "sine qua non"],
+    "related": ["proximate cause", "causation"]
+  },
+  {
+    "term": "Damages",
+    "category": "Torts",
+    "definition": "Monetary compensation awarded to a party who has suffered harm or loss due to another's wrongful act.",
+    "plainEnglish": "Money the wrongdoer has to pay the injured party.",
+    "synonyms": ["compensation", "monetary award", "recovery"],
+    "related": ["compensatory damages", "punitive damages", "nominal damages"]
+  },
+  {
+    "term": "Compensatory Damages",
+    "category": "Torts",
+    "definition": "Damages awarded to make the injured party whole by reimbursing actual losses, including economic and non-economic harm.",
+    "plainEnglish": "Money meant to put the victim back where they would have been.",
+    "synonyms": ["actual damages", "make-whole damages"],
+    "related": ["punitive damages", "special damages", "general damages"]
+  },
+  {
+    "term": "Punitive Damages",
+    "category": "Torts",
+    "definition": "Damages awarded above and beyond compensation to punish the defendant for outrageous conduct and deter similar future conduct.",
+    "plainEnglish": "Extra money meant to punish the defendant and warn off others.",
+    "synonyms": ["exemplary damages", "smart money"],
+    "related": ["compensatory damages", "willful misconduct", "malice"]
+  },
+  {
+    "term": "Nominal Damages",
+    "category": "Torts",
+    "definition": "A small sum awarded when a legal right has been violated but no actual loss has been proven.",
+    "plainEnglish": "A token amount (like $1) recognizing a wrong even though there's no real loss.",
+    "synonyms": ["token damages"],
+    "related": ["compensatory damages", "rights vindication"]
+  },
+  {
+    "term": "Strict Liability",
+    "category": "Torts",
+    "definition": "Liability imposed without regard to fault, typically for abnormally dangerous activities or defective products.",
+    "plainEnglish": "You're liable even if you weren't careless—just because you did the thing.",
+    "synonyms": ["absolute liability", "liability without fault"],
+    "related": ["products liability", "abnormally dangerous activity", "negligence"]
+  },
+  {
+    "term": "Products Liability",
+    "category": "Torts",
+    "definition": "The liability of manufacturers and sellers for injuries caused by defective products, typically based on negligence, strict liability, or breach of warranty.",
+    "plainEnglish": "Holding companies responsible when their defective products hurt people.",
+    "synonyms": [],
+    "related": ["design defect", "manufacturing defect", "failure to warn", "strict liability"]
+  },
+  {
+    "term": "Battery",
+    "category": "Torts",
+    "definition": "An intentional, harmful or offensive contact with another person without their consent.",
+    "plainEnglish": "Intentionally touching someone in a harmful or offensive way without permission.",
+    "synonyms": [],
+    "related": ["assault", "intentional tort", "consent"]
+  },
+  {
+    "term": "Assault",
+    "category": "Torts",
+    "definition": "An intentional act that causes another person to reasonably apprehend imminent harmful or offensive contact.",
+    "plainEnglish": "Making someone reasonably fear they're about to be physically hurt.",
+    "synonyms": [],
+    "related": ["battery", "intentional tort", "imminent harm"]
+  },
+  {
+    "term": "False Imprisonment",
+    "category": "Torts",
+    "definition": "The intentional and unlawful restraint of a person's freedom of movement without legal justification.",
+    "plainEnglish": "Holding someone against their will without legal right.",
+    "synonyms": ["false arrest", "unlawful detention"],
+    "related": ["intentional tort", "kidnapping", "shopkeeper's privilege"]
+  },
+  {
+    "term": "Intentional Infliction of Emotional Distress",
+    "category": "Torts",
+    "definition": "Tort liability for extreme and outrageous conduct intentionally or recklessly causing severe emotional distress to another.",
+    "plainEnglish": "Doing something so outrageous to someone that it causes serious emotional trauma.",
+    "synonyms": ["IIED", "outrage"],
+    "related": ["NIED", "emotional distress", "outrageous conduct"]
+  },
+  {
+    "term": "Defamation",
+    "category": "Torts",
+    "definition": "A false statement of fact communicated to a third party that damages the reputation of the subject.",
+    "plainEnglish": "Saying or writing something false that damages someone's reputation.",
+    "synonyms": ["calumny"],
+    "related": ["libel", "slander", "actual malice", "public figure"]
+  },
+  {
+    "term": "Libel",
+    "category": "Torts",
+    "definition": "Defamation in a written or recorded form.",
+    "plainEnglish": "Defamation in writing.",
+    "synonyms": [],
+    "related": ["slander", "defamation", "publication"]
+  },
+  {
+    "term": "Slander",
+    "category": "Torts",
+    "definition": "Defamation in an oral or spoken form.",
+    "plainEnglish": "Defamation spoken out loud.",
+    "synonyms": [],
+    "related": ["libel", "defamation", "slander per se"]
+  },
+  {
+    "term": "Res Ipsa Loquitur",
+    "category": "Torts",
+    "definition": "A doctrine permitting an inference of negligence from the very nature of an accident, where the cause is exclusively within the defendant's control and the accident would not ordinarily occur without negligence.",
+    "plainEnglish": "Latin for 'the thing speaks for itself'—the accident itself shows someone was negligent.",
+    "synonyms": ["the thing speaks for itself"],
+    "related": ["negligence", "circumstantial evidence", "inference"]
+  },
+  {
+    "term": "Comparative Negligence",
+    "category": "Torts",
+    "definition": "A doctrine that reduces a plaintiff's damages in proportion to their own degree of fault in causing the injury.",
+    "plainEnglish": "Plaintiff's recovery is reduced based on how much they were at fault too.",
+    "synonyms": ["proportional fault"],
+    "related": ["contributory negligence", "fault allocation", "joint liability"]
+  },
+  {
+    "term": "Contributory Negligence",
+    "category": "Torts",
+    "definition": "A common-law doctrine, now largely replaced by comparative negligence, that bars a plaintiff from recovery if they were even slightly at fault.",
+    "plainEnglish": "Old rule—if the plaintiff was at all to blame, they get nothing.",
+    "synonyms": [],
+    "related": ["comparative negligence", "fault", "assumption of risk"]
+  },
+  {
+    "term": "Assumption of Risk",
+    "category": "Torts",
+    "definition": "A defense barring recovery when the plaintiff knowingly and voluntarily accepted a known risk that caused the injury.",
+    "plainEnglish": "You knew it was dangerous and did it anyway, so you can't sue.",
+    "synonyms": ["volenti non fit injuria"],
+    "related": ["contributory negligence", "comparative negligence", "defense"]
+  },
+  {
+    "term": "Vicarious Liability",
+    "category": "Torts",
+    "definition": "Liability imposed on one person for the wrongful acts of another based on the relationship between them, such as employer-employee.",
+    "plainEnglish": "Being held responsible for someone else's wrongdoing because of your relationship to them.",
+    "synonyms": ["imputed liability"],
+    "related": ["respondeat superior", "agency", "scope of employment"]
+  },
+  {
+    "term": "Respondeat Superior",
+    "category": "Torts",
+    "definition": "The doctrine that an employer is liable for the wrongful acts of an employee committed within the scope of employment.",
+    "plainEnglish": "Latin for 'let the master answer'—employers are on the hook for what their employees do on the job.",
+    "synonyms": [],
+    "related": ["vicarious liability", "scope of employment", "agency"]
+  },
+  {
+    "term": "Joint and Several Liability",
+    "category": "Torts",
+    "definition": "A doctrine allowing the plaintiff to collect the entire judgment from any one of multiple tortfeasors, who must then seek contribution from others.",
+    "plainEnglish": "When multiple defendants are liable, the plaintiff can collect the full amount from any one of them.",
+    "synonyms": [],
+    "related": ["contribution", "indemnification", "tortfeasor"]
+  },
+  {
+    "term": "Contract",
+    "category": "Contracts",
+    "definition": "A legally enforceable agreement between two or more parties, typically requiring offer, acceptance, consideration, and mutual assent.",
+    "plainEnglish": "A legally binding deal.",
+    "synonyms": ["agreement", "covenant", "compact", "accord"],
+    "related": ["offer", "acceptance", "consideration", "breach of contract"]
+  },
+  {
+    "term": "Offer",
+    "category": "Contracts",
+    "definition": "A manifestation of willingness to enter into a bargain, justifying another person in understanding that their assent will conclude the agreement.",
+    "plainEnglish": "A proposal to make a deal that the other side can accept.",
+    "synonyms": ["proposal", "tender"],
+    "related": ["acceptance", "counter-offer", "revocation", "consideration"]
+  },
+  {
+    "term": "Acceptance",
+    "category": "Contracts",
+    "definition": "A manifestation of assent to the terms of an offer, made in the manner invited or required by the offer.",
+    "plainEnglish": "Saying yes to a deal in the way the offer required.",
+    "synonyms": ["assent", "agreement"],
+    "related": ["offer", "mirror image rule", "mailbox rule"]
+  },
+  {
+    "term": "Consideration",
+    "category": "Contracts",
+    "definition": "Something of value (an act, forbearance, or promise) bargained for and given in exchange for a promise, required to make a contract enforceable.",
+    "plainEnglish": "The 'something for something'—each side has to give up or do something for the deal to count.",
+    "synonyms": ["bargained-for exchange", "quid pro quo"],
+    "related": ["promise", "bargain", "promissory estoppel"]
+  },
+  {
+    "term": "Mutual Assent",
+    "category": "Contracts",
+    "definition": "The agreement of all parties to a contract on the same terms, traditionally called a 'meeting of the minds.'",
+    "plainEnglish": "Both sides actually agreed to the same deal.",
+    "synonyms": ["meeting of the minds", "consensus ad idem"],
+    "related": ["offer", "acceptance", "objective theory"]
+  },
+  {
+    "term": "Statute of Frauds",
+    "category": "Contracts",
+    "definition": "A doctrine requiring certain contracts (such as those involving land, marriage, or performance over a year) to be in writing and signed to be enforceable.",
+    "plainEnglish": "Some kinds of contracts have to be in writing or they can't be enforced.",
+    "synonyms": ["SOF"],
+    "related": ["writing requirement", "memorandum", "signed writing"]
+  },
+  {
+    "term": "Parol Evidence Rule",
+    "category": "Contracts",
+    "definition": "A doctrine excluding prior or contemporaneous oral or written statements that contradict or vary the terms of a fully integrated written contract.",
+    "plainEnglish": "Once you sign a final written contract, you can't bring in earlier promises to change it.",
+    "synonyms": [],
+    "related": ["integration clause", "merger clause", "extrinsic evidence"]
+  },
+  {
+    "term": "Promissory Estoppel",
+    "category": "Contracts",
+    "definition": "A doctrine enforcing a promise lacking consideration when the promisor reasonably should have expected reliance and injustice can be avoided only by enforcement.",
+    "plainEnglish": "Enforcing a promise (even without a formal contract) because someone reasonably relied on it.",
+    "synonyms": ["detrimental reliance"],
+    "related": ["consideration", "reliance damages", "equitable estoppel"]
+  },
+  {
+    "term": "Unconscionability",
+    "category": "Contracts",
+    "definition": "A defense to contract enforcement where the terms are so unfair and one-sided that no reasonable person would agree to them, often combining procedural and substantive elements.",
+    "plainEnglish": "The contract is so unfair that the court refuses to enforce it.",
+    "synonyms": ["unconscionable bargain"],
+    "related": ["adhesion contract", "duress", "fraud"]
+  },
+  {
+    "term": "Duress",
+    "category": "Contracts",
+    "definition": "An unlawful threat or coercion that overcomes a person's free will, making a contract voidable.",
+    "plainEnglish": "Forcing someone to sign a contract by threatening them.",
+    "synonyms": ["coercion"],
+    "related": ["undue influence", "void", "voidable"]
+  },
+  {
+    "term": "Specific Performance",
+    "category": "Contracts",
+    "definition": "An equitable remedy ordering a party to perform their contractual obligation, typically granted when damages are inadequate, such as in unique-goods or real estate contracts.",
+    "plainEnglish": "The court orders the breaching party to actually do what they promised, not just pay money.",
+    "synonyms": [],
+    "related": ["equitable remedy", "injunction", "damages"]
+  },
+  {
+    "term": "Liquidated Damages",
+    "category": "Contracts",
+    "definition": "Damages whose amount has been agreed upon in the contract itself, enforceable if reasonable and not a penalty.",
+    "plainEnglish": "A pre-agreed dollar amount written into the contract for if someone breaches.",
+    "synonyms": [],
+    "related": ["penalty clause", "damages", "breach"]
+  },
+  {
+    "term": "Expectation Damages",
+    "category": "Contracts",
+    "definition": "Damages designed to put the non-breaching party in the position they would have been in if the contract had been performed.",
+    "plainEnglish": "Money meant to give you what you would have had if the deal had gone through.",
+    "synonyms": ["benefit of the bargain"],
+    "related": ["reliance damages", "restitution", "consequential damages"]
+  },
+  {
+    "term": "Mitigation",
+    "category": "Contracts",
+    "definition": "The duty of a non-breaching party to take reasonable steps to reduce the damages caused by the breach.",
+    "plainEnglish": "After a breach, you have to try to limit your own losses.",
+    "synonyms": ["mitigation of damages", "avoidable consequences"],
+    "related": ["damages", "duty to mitigate"]
+  },
+  {
+    "term": "Anticipatory Breach",
+    "category": "Contracts",
+    "definition": "A clear and unequivocal indication by one party, before performance is due, that they will not perform the contract.",
+    "plainEnglish": "Telling the other side in advance that you won't be keeping your end of the deal.",
+    "synonyms": ["anticipatory repudiation", "repudiation"],
+    "related": ["material breach", "performance", "adequate assurance"]
+  },
+  {
+    "term": "Material Breach",
+    "category": "Contracts",
+    "definition": "A breach so significant that it defeats the essential purpose of the contract and excuses the non-breaching party from further performance.",
+    "plainEnglish": "A breach big enough that the other side can walk away from the contract.",
+    "synonyms": ["substantial breach"],
+    "related": ["minor breach", "substantial performance", "rescission"]
+  },
+  {
+    "term": "Force Majeure",
+    "category": "Contracts",
+    "definition": "A contract clause excusing performance due to extraordinary events beyond the parties' control, such as natural disasters, war, or pandemics.",
+    "plainEnglish": "An 'act of God' clause that excuses performance when something massive and unforeseen happens.",
+    "synonyms": ["act of God clause"],
+    "related": ["impossibility", "frustration of purpose", "impracticability"]
+  },
+  {
+    "term": "Indemnification",
+    "category": "Contracts",
+    "definition": "A contractual obligation by one party to compensate another for specified losses or liabilities.",
+    "plainEnglish": "A promise to cover the other party's losses if certain bad things happen.",
+    "synonyms": ["hold harmless"],
+    "related": ["warranty", "indemnitor", "indemnitee"]
+  },
+  {
+    "term": "Warranty",
+    "category": "Contracts",
+    "definition": "A promise or assurance, express or implied, that certain facts or conditions are true or will happen.",
+    "plainEnglish": "A guarantee built into a contract.",
+    "synonyms": ["guarantee", "assurance"],
+    "related": ["express warranty", "implied warranty", "merchantability"]
+  },
+  {
+    "term": "Novation",
+    "category": "Contracts",
+    "definition": "The substitution of a new contract or new party in place of an existing one, with the consent of all parties, discharging the original obligation.",
+    "plainEnglish": "Swapping out the old contract (or an old party) for a new one, with everyone's agreement.",
+    "synonyms": [],
+    "related": ["assignment", "delegation", "modification"]
+  },
+  {
+    "term": "Assignment",
+    "category": "Contracts",
+    "definition": "The transfer of contractual rights from one party (assignor) to a third party (assignee).",
+    "plainEnglish": "Handing off your right to receive something under a contract to someone else.",
+    "synonyms": [],
+    "related": ["delegation", "assignor", "assignee"]
+  },
+  {
+    "term": "Delegation",
+    "category": "Contracts",
+    "definition": "The transfer of contractual duties to a third party, though the delegating party generally remains liable for performance.",
+    "plainEnglish": "Handing off your duties under a contract to someone else (though you're still on the hook).",
+    "synonyms": [],
+    "related": ["assignment", "delegator", "delegatee"]
+  },
+  {
+    "term": "Third-Party Beneficiary",
+    "category": "Contracts",
+    "definition": "A person who, although not a party to a contract, was intended to benefit from it and may enforce it.",
+    "plainEnglish": "Someone who isn't in the contract but is meant to benefit from it and can sue to enforce it.",
+    "synonyms": [],
+    "related": ["intended beneficiary", "incidental beneficiary", "privity"]
+  },
+  {
+    "term": "Felony",
+    "category": "Criminal Law",
+    "definition": "A serious crime, typically punishable by imprisonment for more than one year or by death.",
+    "plainEnglish": "A serious crime, generally one that can land you in prison for over a year.",
+    "synonyms": [],
+    "related": ["misdemeanor", "indictment", "infraction"]
+  },
+  {
+    "term": "Misdemeanor",
+    "category": "Criminal Law",
+    "definition": "A less serious crime, typically punishable by a fine or imprisonment of one year or less.",
+    "plainEnglish": "A less serious crime, usually punishable by less than a year in jail.",
+    "synonyms": [],
+    "related": ["felony", "infraction", "petty offense"]
+  },
+  {
+    "term": "Mens Rea",
+    "category": "Criminal Law",
+    "definition": "The mental state or intent required to commit a particular crime; literally 'guilty mind.'",
+    "plainEnglish": "The 'guilty mind'—whether the person intended (or was reckless about) the crime.",
+    "synonyms": ["guilty mind", "criminal intent"],
+    "related": ["actus reus", "intent", "specific intent", "general intent"]
+  },
+  {
+    "term": "Actus Reus",
+    "category": "Criminal Law",
+    "definition": "The physical act or unlawful conduct required to constitute a crime; literally 'guilty act.'",
+    "plainEnglish": "The 'guilty act'—the physical thing the person did.",
+    "synonyms": ["guilty act", "criminal act"],
+    "related": ["mens rea", "voluntary act", "omission"]
+  },
+  {
+    "term": "Probable Cause",
+    "category": "Criminal Procedure",
+    "definition": "A reasonable basis, based on facts and circumstances, to believe a crime has been or is being committed; the standard for arrests and search warrants.",
+    "plainEnglish": "Enough reason to believe a crime happened to justify an arrest or search.",
+    "synonyms": [],
+    "related": ["reasonable suspicion", "warrant", "Fourth Amendment"]
+  },
+  {
+    "term": "Reasonable Suspicion",
+    "category": "Criminal Procedure",
+    "definition": "A standard lower than probable cause, requiring specific and articulable facts suggesting criminal activity; sufficient for a brief investigative stop.",
+    "plainEnglish": "Enough to briefly stop and question someone, but not enough to arrest them.",
+    "synonyms": [],
+    "related": ["probable cause", "Terry stop", "stop and frisk"]
+  },
+  {
+    "term": "Beyond a Reasonable Doubt",
+    "category": "Criminal Procedure",
+    "definition": "The highest standard of proof, required to convict in criminal cases; doubt based on reason after considering all the evidence.",
+    "plainEnglish": "The high bar prosecutors have to clear to convict—no reasonable doubt that the defendant did it.",
+    "synonyms": [],
+    "related": ["burden of proof", "preponderance", "clear and convincing"]
+  },
+  {
+    "term": "Preponderance of the Evidence",
+    "category": "Civil Procedure",
+    "definition": "The standard of proof in most civil cases, meaning more likely than not (greater than 50%).",
+    "plainEnglish": "More likely true than not—the bar in most civil cases.",
+    "synonyms": ["more likely than not"],
+    "related": ["clear and convincing", "beyond a reasonable doubt", "burden of proof"]
+  },
+  {
+    "term": "Clear and Convincing Evidence",
+    "category": "Civil Procedure",
+    "definition": "An intermediate standard of proof requiring a high probability of truth, used in certain civil matters such as fraud, termination of parental rights, and punitive damages.",
+    "plainEnglish": "Higher than 'more likely than not' but lower than 'beyond a reasonable doubt.'",
+    "synonyms": [],
+    "related": ["preponderance", "beyond a reasonable doubt", "burden of proof"]
+  },
+  {
+    "term": "Miranda Warning",
+    "category": "Criminal Procedure",
+    "definition": "Warnings required to be given by police to suspects in custody before interrogation, advising them of their rights to remain silent and to counsel.",
+    "plainEnglish": "The 'you have the right to remain silent' warning before police questioning.",
+    "synonyms": ["Miranda rights"],
+    "related": ["right to counsel", "right against self-incrimination", "custodial interrogation"]
+  },
+  {
+    "term": "Exclusionary Rule",
+    "category": "Criminal Procedure",
+    "definition": "A rule prohibiting the use at trial of evidence obtained in violation of the defendant's constitutional rights.",
+    "plainEnglish": "Evidence cops got illegally can't be used at trial.",
+    "synonyms": [],
+    "related": ["fruit of the poisonous tree", "Fourth Amendment", "Mapp v. Ohio"]
+  },
+  {
+    "term": "Fruit of the Poisonous Tree",
+    "category": "Criminal Procedure",
+    "definition": "A doctrine excluding evidence derived from an illegal search, arrest, or interrogation, including evidence obtained indirectly.",
+    "plainEnglish": "Evidence that came from an illegal search is also tainted and excluded.",
+    "synonyms": [],
+    "related": ["exclusionary rule", "attenuation", "independent source"]
+  },
+  {
+    "term": "Double Jeopardy",
+    "category": "Criminal Procedure",
+    "definition": "The Fifth Amendment protection against being tried twice for the same offense by the same sovereign.",
+    "plainEnglish": "You can't be tried twice for the same crime in the same jurisdiction.",
+    "synonyms": [],
+    "related": ["Fifth Amendment", "collateral estoppel", "same offense"]
+  },
+  {
+    "term": "Habeas Corpus",
+    "category": "Criminal Procedure",
+    "definition": "A writ requiring a person under detention to be brought before a court to determine whether their imprisonment is lawful.",
+    "plainEnglish": "A challenge that says 'the government is holding me illegally—prove it has the right to.'",
+    "synonyms": ["the Great Writ"],
+    "related": ["writ", "post-conviction relief", "detention"]
+  },
+  {
+    "term": "Plea Bargain",
+    "category": "Criminal Procedure",
+    "definition": "A negotiated agreement in which a defendant pleads guilty to a charge in exchange for some concession by the prosecution, such as reduced charges or a lighter sentence.",
+    "plainEnglish": "A deal where the defendant pleads guilty in exchange for a lighter charge or sentence.",
+    "synonyms": ["plea agreement", "plea deal"],
+    "related": ["nolo contendere", "guilty plea", "sentencing"]
+  },
+  {
+    "term": "Indictment",
+    "category": "Criminal Procedure",
+    "definition": "A formal written accusation by a grand jury charging a person with a crime.",
+    "plainEnglish": "A grand jury's formal charging document accusing someone of a crime.",
+    "synonyms": ["true bill"],
+    "related": ["grand jury", "information", "arraignment"]
+  },
+  {
+    "term": "Arraignment",
+    "category": "Criminal Procedure",
+    "definition": "A court proceeding where a defendant is formally charged, informed of the charges, and asked to enter a plea.",
+    "plainEnglish": "The first court appearance where the defendant hears the charges and enters a plea.",
+    "synonyms": [],
+    "related": ["initial appearance", "indictment", "plea"]
+  },
+  {
+    "term": "Bail",
+    "category": "Criminal Procedure",
+    "definition": "Money or property pledged to the court to secure a defendant's release from custody and ensure their appearance at trial.",
+    "plainEnglish": "Money or property put up to get out of jail before trial, forfeited if the defendant skips court.",
+    "synonyms": ["bond"],
+    "related": ["bond", "recognizance", "pretrial release"]
+  },
+  {
+    "term": "Self-Defense",
+    "category": "Criminal Law",
+    "definition": "A defense justifying the use of force to protect oneself from imminent unlawful harm, generally requiring proportional response.",
+    "plainEnglish": "The defense that you used force because you were defending yourself from an attack.",
+    "synonyms": [],
+    "related": ["defense of others", "stand your ground", "duty to retreat"]
+  },
+  {
+    "term": "Insanity Defense",
+    "category": "Criminal Law",
+    "definition": "A defense asserting that the defendant should not be held criminally responsible because, at the time of the offense, a mental disease or defect prevented them from understanding the nature of their act or that it was wrong.",
+    "plainEnglish": "A defense that the defendant was so mentally ill they couldn't be held responsible.",
+    "synonyms": ["NGRI"],
+    "related": ["M'Naghten rule", "competence to stand trial", "diminished capacity"]
+  },
+  {
+    "term": "Fee Simple",
+    "category": "Property",
+    "definition": "The most complete form of ownership in real property, lasting indefinitely and freely transferable.",
+    "plainEnglish": "Full ownership of land with no time limit—you own it outright.",
+    "synonyms": ["fee simple absolute"],
+    "related": ["life estate", "remainder", "estate in land"]
+  },
+  {
+    "term": "Life Estate",
+    "category": "Property",
+    "definition": "An interest in real property limited in duration to the life of a specified person.",
+    "plainEnglish": "You own and use the property only during your (or someone else's) lifetime.",
+    "synonyms": [],
+    "related": ["remainder", "reversion", "life tenant", "fee simple"]
+  },
+  {
+    "term": "Easement",
+    "category": "Property",
+    "definition": "A nonpossessory right to use another's land for a specific purpose, such as a right of way.",
+    "plainEnglish": "A legal right to use part of someone else's land for a specific purpose.",
+    "synonyms": ["servitude"],
+    "related": ["right of way", "license", "covenant"]
+  },
+  {
+    "term": "Adverse Possession",
+    "category": "Property",
+    "definition": "The acquisition of title to land by openly occupying it for a statutory period in a manner hostile to the true owner's rights.",
+    "plainEnglish": "Gaining ownership of land by using it openly and without permission long enough.",
+    "synonyms": ["squatter's rights"],
+    "related": ["statute of limitations", "hostile possession", "open and notorious"]
+  },
+  {
+    "term": "Eminent Domain",
+    "category": "Property",
+    "definition": "The government's power to take private property for public use, subject to payment of just compensation.",
+    "plainEnglish": "The government's power to take private property for public use (paying fair value for it).",
+    "synonyms": ["condemnation"],
+    "related": ["takings", "just compensation", "public use", "Fifth Amendment"]
+  },
+  {
+    "term": "Joint Tenancy",
+    "category": "Property",
+    "definition": "Co-ownership of property in equal shares with a right of survivorship—when one tenant dies, their interest passes automatically to the survivors.",
+    "plainEnglish": "Co-ownership where if one owner dies, their share automatically goes to the others.",
+    "synonyms": [],
+    "related": ["tenancy in common", "right of survivorship", "tenancy by the entirety"]
+  },
+  {
+    "term": "Tenancy in Common",
+    "category": "Property",
+    "definition": "Co-ownership where each owner has a separate, undivided interest that can be sold or inherited, with no right of survivorship.",
+    "plainEnglish": "Co-ownership where each person can leave their share to whoever they want when they die.",
+    "synonyms": ["TIC"],
+    "related": ["joint tenancy", "partition", "undivided interest"]
+  },
+  {
+    "term": "Mortgage",
+    "category": "Property",
+    "definition": "A security interest in real property given by a borrower to a lender to secure repayment of a loan.",
+    "plainEnglish": "Using your house as collateral for a loan.",
+    "synonyms": [],
+    "related": ["lien", "foreclosure", "deed of trust", "mortgagor", "mortgagee"]
+  },
+  {
+    "term": "Deed",
+    "category": "Property",
+    "definition": "A legal document transferring ownership of real property from one party to another.",
+    "plainEnglish": "The legal document that transfers ownership of real estate.",
+    "synonyms": [],
+    "related": ["title", "conveyance", "warranty deed", "quitclaim deed"]
+  },
+  {
+    "term": "Title",
+    "category": "Property",
+    "definition": "Legal ownership of property and the evidence of that ownership.",
+    "plainEnglish": "Legal ownership of property.",
+    "synonyms": ["ownership"],
+    "related": ["deed", "chain of title", "title insurance", "marketable title"]
+  },
+  {
+    "term": "Bona Fide Purchaser",
+    "category": "Property",
+    "definition": "A buyer who acquires property in good faith, for value, and without notice of competing claims, often gaining superior title.",
+    "plainEnglish": "Someone who buys property in good faith, paying real money, without knowing about any other claims to it.",
+    "synonyms": ["BFP", "good faith purchaser"],
+    "related": ["recording statute", "notice", "constructive notice"]
+  },
+  {
+    "term": "Hearsay",
+    "category": "Evidence",
+    "definition": "An out-of-court statement offered to prove the truth of the matter asserted, generally inadmissible unless an exception applies.",
+    "plainEnglish": "Repeating what someone else said outside of court, to prove it's true—generally not allowed.",
+    "synonyms": [],
+    "related": ["hearsay exception", "out-of-court statement", "declarant"]
+  },
+  {
+    "term": "Relevance",
+    "category": "Evidence",
+    "definition": "Evidence is relevant if it has any tendency to make a fact of consequence more or less probable than it would be without the evidence.",
+    "plainEnglish": "Whether the evidence has anything to do with the issues in the case.",
+    "synonyms": ["material"],
+    "related": ["materiality", "probative value", "Rule 401"]
+  },
+  {
+    "term": "Probative Value",
+    "category": "Evidence",
+    "definition": "The degree to which a piece of evidence makes a fact more or less probable, weighed against potential unfair prejudice.",
+    "plainEnglish": "How much the evidence actually helps prove (or disprove) something.",
+    "synonyms": [],
+    "related": ["prejudicial effect", "Rule 403", "balancing test"]
+  },
+  {
+    "term": "Attorney-Client Privilege",
+    "category": "Evidence",
+    "definition": "A privilege protecting confidential communications between a lawyer and client made for the purpose of obtaining legal advice.",
+    "plainEnglish": "Things you say to your lawyer in confidence can't be used against you.",
+    "synonyms": ["ACP"],
+    "related": ["work product", "confidentiality", "waiver"]
+  },
+  {
+    "term": "Work Product Doctrine",
+    "category": "Evidence",
+    "definition": "A doctrine protecting materials prepared by or for an attorney in anticipation of litigation from discovery by opposing counsel.",
+    "plainEnglish": "Your lawyer's notes, strategies, and prep materials are generally shielded from the other side.",
+    "synonyms": ["work product privilege"],
+    "related": ["attorney-client privilege", "discovery", "Hickman v. Taylor"]
+  },
+  {
+    "term": "Best Evidence Rule",
+    "category": "Evidence",
+    "definition": "A rule requiring the original document (or a reliable duplicate) to prove its contents, rather than testimony about the document.",
+    "plainEnglish": "If you want to prove what a document says, you generally have to produce the document itself.",
+    "synonyms": ["original document rule"],
+    "related": ["authentication", "duplicate", "secondary evidence"]
+  },
+  {
+    "term": "Character Evidence",
+    "category": "Evidence",
+    "definition": "Evidence of a person's character or character trait, generally inadmissible to prove conduct on a particular occasion but admissible for other purposes.",
+    "plainEnglish": "Evidence about someone's general character (good or bad), usually not allowed to prove they did something.",
+    "synonyms": [],
+    "related": ["prior bad acts", "reputation evidence", "Rule 404"]
+  },
+  {
+    "term": "Expert Witness",
+    "category": "Evidence",
+    "definition": "A witness qualified by knowledge, skill, experience, training, or education to offer opinion testimony on matters beyond lay understanding.",
+    "plainEnglish": "A specialist allowed to give expert opinions in court.",
+    "synonyms": ["expert"],
+    "related": ["Daubert", "Frye", "lay witness", "opinion testimony"]
+  },
+  {
+    "term": "Daubert Standard",
+    "category": "Evidence",
+    "definition": "The federal standard for admissibility of expert testimony, requiring the trial judge to determine whether the expert's methodology is scientifically reliable and relevant.",
+    "plainEnglish": "Federal courts' test for whether an expert's methods are reliable enough to testify.",
+    "synonyms": ["Daubert test"],
+    "related": ["Frye standard", "expert witness", "gatekeeper"]
+  },
+  {
+    "term": "Excited Utterance",
+    "category": "Evidence",
+    "definition": "A hearsay exception allowing statements made under the stress of a startling event, while the declarant remains under that stress.",
+    "plainEnglish": "Something said in the heat of a shocking moment—an exception to the hearsay rule.",
+    "synonyms": [],
+    "related": ["present sense impression", "hearsay exception", "spontaneous statement"]
+  },
+  {
+    "term": "Dying Declaration",
+    "category": "Evidence",
+    "definition": "A hearsay exception for statements made by a declarant who believes death is imminent, concerning the cause or circumstances of impending death.",
+    "plainEnglish": "What someone says when they think they're dying—admissible despite hearsay rules.",
+    "synonyms": [],
+    "related": ["hearsay exception", "unavailability", "Rule 804"]
+  },
+  {
+    "term": "Judicial Notice",
+    "category": "Evidence",
+    "definition": "Court recognition of a fact as true without requiring proof, generally limited to facts that are commonly known or readily verifiable.",
+    "plainEnglish": "When the court accepts a well-known fact as true without anyone having to prove it.",
+    "synonyms": [],
+    "related": ["facts not in dispute", "common knowledge", "Rule 201"]
+  },
+  {
+    "term": "Due Process",
+    "category": "Constitutional Law",
+    "definition": "The constitutional guarantee that the government will not deprive a person of life, liberty, or property without fair procedures and substantive fairness.",
+    "plainEnglish": "The government has to play fair before taking your life, freedom, or property.",
+    "synonyms": [],
+    "related": ["procedural due process", "substantive due process", "Fifth Amendment", "Fourteenth Amendment"]
+  },
+  {
+    "term": "Procedural Due Process",
+    "category": "Constitutional Law",
+    "definition": "The constitutional requirement of fair procedures—generally notice and an opportunity to be heard—before government deprives someone of life, liberty, or property.",
+    "plainEnglish": "Notice and a chance to be heard before the government takes something from you.",
+    "synonyms": [],
+    "related": ["notice", "opportunity to be heard", "Mathews v. Eldridge"]
+  },
+  {
+    "term": "Substantive Due Process",
+    "category": "Constitutional Law",
+    "definition": "The constitutional doctrine protecting fundamental rights from government interference, regardless of the procedures used.",
+    "plainEnglish": "Some rights are so fundamental that no fair procedure can justify taking them away.",
+    "synonyms": [],
+    "related": ["fundamental rights", "strict scrutiny", "liberty interest"]
+  },
+  {
+    "term": "Equal Protection",
+    "category": "Constitutional Law",
+    "definition": "The Fourteenth Amendment guarantee that the government will not deny any person within its jurisdiction the equal protection of the laws.",
+    "plainEnglish": "The government has to treat similarly situated people similarly.",
+    "synonyms": [],
+    "related": ["strict scrutiny", "intermediate scrutiny", "rational basis", "discrimination"]
+  },
+  {
+    "term": "Strict Scrutiny",
+    "category": "Constitutional Law",
+    "definition": "The most rigorous standard of judicial review, requiring laws to be narrowly tailored to serve a compelling government interest. Applied to suspect classifications and fundamental rights.",
+    "plainEnglish": "The toughest level of constitutional review—laws almost always fail it.",
+    "synonyms": [],
+    "related": ["intermediate scrutiny", "rational basis", "compelling interest", "narrow tailoring"]
+  },
+  {
+    "term": "Intermediate Scrutiny",
+    "category": "Constitutional Law",
+    "definition": "A middle-tier standard of review requiring laws to be substantially related to an important government interest, applied to classifications like gender.",
+    "plainEnglish": "A middle-level constitutional test, used for things like gender classifications.",
+    "synonyms": ["heightened scrutiny"],
+    "related": ["strict scrutiny", "rational basis", "important interest"]
+  },
+  {
+    "term": "Rational Basis Review",
+    "category": "Constitutional Law",
+    "definition": "The most deferential standard of review, requiring only that a law be rationally related to a legitimate government interest. Most laws survive this test.",
+    "plainEnglish": "The easy-pass constitutional test—any half-decent reason will do.",
+    "synonyms": [],
+    "related": ["strict scrutiny", "intermediate scrutiny", "legitimate interest"]
+  },
+  {
+    "term": "Commerce Clause",
+    "category": "Constitutional Law",
+    "definition": "The constitutional provision (Article I, § 8) granting Congress the power to regulate commerce with foreign nations, among the states, and with Indian tribes.",
+    "plainEnglish": "The part of the Constitution that gives Congress power to regulate business and commerce.",
+    "synonyms": [],
+    "related": ["interstate commerce", "Dormant Commerce Clause", "federal power"]
+  },
+  {
+    "term": "First Amendment",
+    "category": "Constitutional Law",
+    "definition": "The constitutional amendment protecting freedoms of religion, speech, press, peaceful assembly, and the right to petition the government.",
+    "plainEnglish": "The free speech, religion, press, assembly, and petition amendment.",
+    "synonyms": [],
+    "related": ["free speech", "establishment clause", "free exercise clause", "freedom of press"]
+  },
+  {
+    "term": "Establishment Clause",
+    "category": "Constitutional Law",
+    "definition": "The First Amendment clause prohibiting government establishment of religion, generally requiring separation between church and state.",
+    "plainEnglish": "The government can't establish or favor a religion.",
+    "synonyms": [],
+    "related": ["free exercise clause", "Lemon test", "separation of church and state"]
+  },
+  {
+    "term": "Free Exercise Clause",
+    "category": "Constitutional Law",
+    "definition": "The First Amendment clause protecting the right to practice one's religion without undue government interference.",
+    "plainEnglish": "The government can't stop you from practicing your religion.",
+    "synonyms": [],
+    "related": ["establishment clause", "religious freedom", "RFRA"]
+  },
+  {
+    "term": "Corporation",
+    "category": "Business Law",
+    "definition": "A legal entity created under state law that is separate from its owners (shareholders) and has rights and obligations distinct from those of the individuals who form it.",
+    "plainEnglish": "A business treated by the law as its own 'person,' separate from the people who own it.",
+    "synonyms": ["corp.", "incorporated entity"],
+    "related": ["LLC", "shareholder", "board of directors", "piercing the corporate veil"]
+  },
+  {
+    "term": "Limited Liability Company",
+    "category": "Business Law",
+    "definition": "A hybrid business entity offering limited liability protection like a corporation while allowing pass-through taxation and flexible management like a partnership.",
+    "plainEnglish": "A flexible business structure that protects owners from personal liability and is taxed like a partnership.",
+    "synonyms": ["LLC"],
+    "related": ["corporation", "partnership", "limited liability", "operating agreement"]
+  },
+  {
+    "term": "Piercing the Corporate Veil",
+    "category": "Business Law",
+    "definition": "A judicial doctrine allowing courts to hold shareholders personally liable for corporate obligations when the corporation is used to perpetrate fraud or is a mere alter ego of its owners.",
+    "plainEnglish": "When the court goes after the people behind a sham corporation personally.",
+    "synonyms": ["disregarding the corporate entity"],
+    "related": ["alter ego", "limited liability", "shareholder liability"]
+  },
+  {
+    "term": "Fiduciary Duty",
+    "category": "Business Law",
+    "definition": "A legal duty to act in the best interests of another party, typically involving duties of loyalty, care, and good faith.",
+    "plainEnglish": "A duty to put someone else's interests ahead of your own.",
+    "synonyms": [],
+    "related": ["duty of care", "duty of loyalty", "trustee", "agent"]
+  },
+  {
+    "term": "Business Judgment Rule",
+    "category": "Business Law",
+    "definition": "A presumption that corporate directors acted on an informed basis, in good faith, and in the honest belief their actions were in the company's best interest.",
+    "plainEnglish": "Courts give corporate directors the benefit of the doubt on business decisions made in good faith.",
+    "synonyms": ["BJR"],
+    "related": ["fiduciary duty", "duty of care", "shareholder derivative suit"]
+  },
+  {
+    "term": "Will",
+    "category": "Estates & Trusts",
+    "definition": "A legal document expressing how a person wants their property distributed after death, typically requiring formalities such as writing, signature, and witnesses.",
+    "plainEnglish": "The legal document saying who gets your stuff when you die.",
+    "synonyms": ["last will and testament"],
+    "related": ["testator", "codicil", "intestate", "probate"]
+  },
+  {
+    "term": "Testator",
+    "category": "Estates & Trusts",
+    "definition": "A person who makes a will.",
+    "plainEnglish": "The person whose will it is (testatrix if female, in older usage).",
+    "synonyms": [],
+    "related": ["will", "beneficiary", "executor"]
+  },
+  {
+    "term": "Intestate",
+    "category": "Estates & Trusts",
+    "definition": "The condition of dying without a valid will, in which case property passes according to state intestacy laws.",
+    "plainEnglish": "Dying without a will.",
+    "synonyms": [],
+    "related": ["testate", "intestacy", "heirs", "next of kin"]
+  },
+  {
+    "term": "Probate",
+    "category": "Estates & Trusts",
+    "definition": "The court-supervised process of validating a will, administering an estate, and distributing assets to heirs and beneficiaries.",
+    "plainEnglish": "The court process for sorting out someone's estate after they die.",
+    "synonyms": [],
+    "related": ["will", "executor", "administrator", "estate"]
+  },
+  {
+    "term": "Trust",
+    "category": "Estates & Trusts",
+    "definition": "A legal arrangement where one party (trustee) holds and manages property for the benefit of another (beneficiary), created by a grantor or settlor.",
+    "plainEnglish": "An arrangement where someone holds and manages property for the benefit of someone else.",
+    "synonyms": [],
+    "related": ["trustee", "beneficiary", "settlor", "fiduciary duty"]
+  },
+  {
+    "term": "Power of Attorney",
+    "category": "Estates & Trusts",
+    "definition": "A legal document authorizing one person (the agent or attorney-in-fact) to act on behalf of another (the principal) in specified matters.",
+    "plainEnglish": "A document letting someone else act legally on your behalf.",
+    "synonyms": ["POA"],
+    "related": ["agent", "principal", "durable power of attorney", "fiduciary"]
+  },
+  {
+    "term": "Prima Facie",
+    "category": "Latin Maxims",
+    "definition": "Sufficient on its face; a prima facie case is one with enough evidence to proceed unless rebutted.",
+    "plainEnglish": "'On its face'—at first glance, enough evidence to make the case.",
+    "synonyms": ["on its face", "at first sight"],
+    "related": ["burden of proof", "rebuttable presumption", "case in chief"]
+  },
+  {
+    "term": "Quid Pro Quo",
+    "category": "Latin Maxims",
+    "definition": "Something for something; an exchange of equivalent value.",
+    "plainEnglish": "'This for that'—an exchange where each side gives the other something.",
+    "synonyms": ["consideration", "exchange"],
+    "related": ["consideration", "bargained-for exchange", "sexual harassment"]
+  },
+  {
+    "term": "In Loco Parentis",
+    "category": "Latin Maxims",
+    "definition": "In the place of a parent; describing someone, often a school or guardian, who has assumed parental duties.",
+    "plainEnglish": "'In the place of a parent'—standing in for a parent legally.",
+    "synonyms": [],
+    "related": ["guardian", "custody", "parental rights"]
+  },
+  {
+    "term": "Caveat Emptor",
+    "category": "Latin Maxims",
+    "definition": "Let the buyer beware—the principle that buyers must inspect goods and bear the risk of defects unless protected by warranty or statute.",
+    "plainEnglish": "'Let the buyer beware'—you bought it, you live with it.",
+    "synonyms": ["buyer beware"],
+    "related": ["warranty", "as is", "merchantability"]
+  },
+  {
+    "term": "De Facto",
+    "category": "Latin Maxims",
+    "definition": "In fact, as a matter of practice, regardless of official status; often contrasted with de jure.",
+    "plainEnglish": "'In reality'—what's actually happening, even if it's not official.",
+    "synonyms": ["in fact"],
+    "related": ["de jure", "actual", "constructive"]
+  },
+  {
+    "term": "De Jure",
+    "category": "Latin Maxims",
+    "definition": "By law, as a matter of legal right; often contrasted with de facto.",
+    "plainEnglish": "'By law'—what the law officially says, even if reality differs.",
+    "synonyms": ["by right", "legally"],
+    "related": ["de facto", "lawful", "by operation of law"]
+  },
+  {
+    "term": "Sui Generis",
+    "category": "Latin Maxims",
+    "definition": "Of its own kind; unique and not fitting into established categories.",
+    "plainEnglish": "'One of a kind'—doesn't fit any existing category.",
+    "synonyms": ["unique", "one of a kind"],
+    "related": ["unique", "novel"]
+  },
+  {
+    "term": "Ad Hoc",
+    "category": "Latin Maxims",
+    "definition": "For this purpose; created for a specific, immediate need rather than general application.",
+    "plainEnglish": "'For this'—made for one specific situation.",
+    "synonyms": ["for this purpose", "improvised"],
+    "related": ["temporary", "special purpose"]
+  },
+  {
+    "term": "Ad Litem",
+    "category": "Latin Maxims",
+    "definition": "For the purposes of the lawsuit; a guardian ad litem, for instance, is appointed to represent a party only for the duration of a case.",
+    "plainEnglish": "'For the lawsuit'—appointed only for this case.",
+    "synonyms": [],
+    "related": ["guardian ad litem", "next friend"]
+  },
+  {
+    "term": "Sua Sponte",
+    "category": "Latin Maxims",
+    "definition": "Of its own accord; describing an action taken by a court on its own initiative without a motion or request.",
+    "plainEnglish": "'On its own'—when the judge does something without anyone asking.",
+    "synonyms": ["on its own motion"],
+    "related": ["motion", "court order"]
+  },
+  {
+    "term": "Nunc Pro Tunc",
+    "category": "Latin Maxims",
+    "definition": "Now for then; describing a court action with retroactive effect, as if it had been done at an earlier date.",
+    "plainEnglish": "'Now for then'—backdating a court order to fix an earlier omission.",
+    "synonyms": ["retroactive"],
+    "related": ["retroactive", "amendment"]
+  },
+  {
+    "term": "Sine Qua Non",
+    "category": "Latin Maxims",
+    "definition": "Without which not; an essential condition or indispensable element.",
+    "plainEnglish": "'Without which, nothing'—an absolutely essential element.",
+    "synonyms": ["essential element"],
+    "related": ["but-for causation", "necessary condition"]
+  },
+  {
+    "term": "Ultra Vires",
+    "category": "Latin Maxims",
+    "definition": "Beyond the powers; an act outside the legal authority of a corporation, officer, or government entity.",
+    "plainEnglish": "'Beyond the powers'—doing something you weren't legally allowed to do.",
+    "synonyms": ["beyond authority"],
+    "related": ["corporate charter", "scope of authority", "void"]
+  },
+  {
+    "term": "Bona Fide",
+    "category": "Latin Maxims",
+    "definition": "In good faith; genuine, sincere, and without intent to deceive.",
+    "plainEnglish": "'In good faith'—legitimate and honest.",
+    "synonyms": ["good faith", "genuine"],
+    "related": ["bona fide purchaser", "good faith", "fraud"]
+  },
+  {
+    "term": "Malum in Se",
+    "category": "Latin Maxims",
+    "definition": "Wrong in itself; conduct that is inherently immoral or wrongful, such as murder or theft.",
+    "plainEnglish": "'Wrong in itself'—things everyone agrees are evil, like murder.",
+    "synonyms": [],
+    "related": ["malum prohibitum", "criminal law", "natural law"]
+  },
+  {
+    "term": "Malum Prohibitum",
+    "category": "Latin Maxims",
+    "definition": "Wrong because prohibited; conduct that is wrongful only because a statute makes it so, such as traffic violations.",
+    "plainEnglish": "'Wrong because banned'—only illegal because there's a law against it.",
+    "synonyms": [],
+    "related": ["malum in se", "regulatory offense", "statutory crime"]
+  },
+  {
+    "term": "Inter Alia",
+    "category": "Latin Maxims",
+    "definition": "Among other things; used when citing a few examples from a larger group.",
+    "plainEnglish": "'Among other things.'",
+    "synonyms": ["among other things"],
+    "related": []
+  },
+  {
+    "term": "In Personam",
+    "category": "Latin Maxims",
+    "definition": "Against the person; describing an action or jurisdiction directed at a specific person rather than property.",
+    "plainEnglish": "'Against the person'—a case directed at a particular individual.",
+    "synonyms": ["personal jurisdiction"],
+    "related": ["in rem", "personal jurisdiction", "quasi in rem"]
+  },
+  {
+    "term": "In Rem",
+    "category": "Latin Maxims",
+    "definition": "Against the thing; describing an action directed at property itself rather than a particular person.",
+    "plainEnglish": "'Against the thing'—a case directed at a piece of property, not a person.",
+    "synonyms": [],
+    "related": ["in personam", "quasi in rem", "admiralty"]
+  },
+  {
+    "term": "Pro Bono",
+    "category": "Latin Maxims",
+    "definition": "For the public good; legal services provided without charge, typically for clients who cannot afford counsel.",
+    "plainEnglish": "Legal work done for free.",
+    "synonyms": ["pro bono publico"],
+    "related": ["legal aid", "indigent representation"]
+  },
+  {
+    "term": "In Limine",
+    "category": "Civil Procedure",
+    "definition": "At the threshold; a motion in limine asks the court to rule on the admissibility of evidence before it is offered at trial.",
+    "plainEnglish": "A pretrial motion to keep certain evidence out of trial.",
+    "synonyms": [],
+    "related": ["motion", "admissibility", "preliminary ruling"]
+  },
+  {
+    "term": "A Fortiori",
+    "category": "Latin Maxims",
+    "definition": "With even stronger reason; used in legal argument to indicate that a conclusion follows even more strongly from a stronger premise.",
+    "plainEnglish": "'Even more so'—if X is true, then Y is even more obviously true.",
+    "synonyms": ["all the more"],
+    "related": ["argument", "logic"]
+  },
+  {
+    "term": "Et Seq.",
+    "category": "Latin Maxims",
+    "definition": "And the following; used in citations to indicate that the cited section continues with subsequent sections.",
+    "plainEnglish": "'And what follows'—citation shorthand meaning the cited section plus the ones after.",
+    "synonyms": ["and following"],
+    "related": ["citation", "Bluebook"]
+  },
+  {
+    "term": "Et Al.",
+    "category": "Latin Maxims",
+    "definition": "And others; used in case captions and citations to indicate additional parties or authors beyond those named.",
+    "plainEnglish": "'And others'—shorthand for additional parties or authors.",
+    "synonyms": ["and others"],
+    "related": ["caption", "citation"]
+  },
+  {
+    "term": "Chapter 7 Bankruptcy",
+    "category": "Bankruptcy",
+    "definition": "A liquidation bankruptcy under the U.S. Bankruptcy Code in which a trustee gathers and sells the debtor's nonexempt property to pay creditors.",
+    "plainEnglish": "'Wipe-out' bankruptcy—non-exempt assets are sold off and most debts are discharged.",
+    "synonyms": ["liquidation bankruptcy", "straight bankruptcy"],
+    "related": ["Chapter 11", "Chapter 13", "discharge", "automatic stay"]
+  },
+  {
+    "term": "Chapter 11 Bankruptcy",
+    "category": "Bankruptcy",
+    "definition": "A reorganization bankruptcy, typically used by businesses, allowing the debtor to continue operating while restructuring debts under court supervision.",
+    "plainEnglish": "Business reorganization bankruptcy—the company keeps running while it restructures its debts.",
+    "synonyms": ["business reorganization"],
+    "related": ["Chapter 7", "Chapter 13", "reorganization plan", "debtor in possession"]
+  },
+  {
+    "term": "Chapter 13 Bankruptcy",
+    "category": "Bankruptcy",
+    "definition": "A consumer bankruptcy reorganization allowing individuals with regular income to repay debts over three to five years under a court-approved plan.",
+    "plainEnglish": "Individual repayment-plan bankruptcy—you keep your stuff but pay off debts over 3-5 years.",
+    "synonyms": ["wage earner's plan"],
+    "related": ["Chapter 7", "Chapter 11", "repayment plan"]
+  },
+  {
+    "term": "Automatic Stay",
+    "category": "Bankruptcy",
+    "definition": "An injunction that automatically takes effect upon filing a bankruptcy petition, halting most collection efforts and lawsuits against the debtor.",
+    "plainEnglish": "An instant freeze on collection efforts the moment someone files for bankruptcy.",
+    "synonyms": [],
+    "related": ["bankruptcy petition", "creditor", "relief from stay"]
+  },
+  {
+    "term": "Discharge",
+    "category": "Bankruptcy",
+    "definition": "A court order in bankruptcy releasing the debtor from personal liability for most pre-petition debts.",
+    "plainEnglish": "The bankruptcy court wiping out your debts.",
+    "synonyms": [],
+    "related": ["dischargeable debt", "non-dischargeable debt", "fresh start"]
+  },
+  {
+    "term": "Custody",
+    "category": "Family Law",
+    "definition": "A parent's legal authority and responsibility regarding the care, control, and decision-making for a child, split between legal custody and physical custody.",
+    "plainEnglish": "Who has the right to make decisions for and live with a child.",
+    "synonyms": [],
+    "related": ["legal custody", "physical custody", "visitation", "best interests of the child"]
+  },
+  {
+    "term": "Alimony",
+    "category": "Family Law",
+    "definition": "Court-ordered financial support paid by one ex-spouse to the other after a divorce or separation.",
+    "plainEnglish": "Spousal support paid after divorce.",
+    "synonyms": ["spousal support", "maintenance"],
+    "related": ["divorce", "child support", "marital property"]
+  },
+  {
+    "term": "Child Support",
+    "category": "Family Law",
+    "definition": "Court-ordered payments made by a non-custodial parent to the custodial parent for the support of their child.",
+    "plainEnglish": "Payments by one parent to the other for the kids' expenses.",
+    "synonyms": [],
+    "related": ["alimony", "custody", "support guidelines"]
+  },
+  {
+    "term": "Best Interests of the Child",
+    "category": "Family Law",
+    "definition": "The legal standard guiding decisions in child custody, visitation, and adoption matters, focused on the child's welfare rather than the parents' preferences.",
+    "plainEnglish": "The rule that says decisions about kids should put the kid's well-being first.",
+    "synonyms": [],
+    "related": ["custody", "visitation", "guardian ad litem"]
+  },
+  {
+    "term": "Prenuptial Agreement",
+    "category": "Family Law",
+    "definition": "A contract entered into before marriage that establishes how assets and debts will be divided in the event of divorce or death.",
+    "plainEnglish": "A 'prenup'—a deal made before marriage about who gets what if it ends.",
+    "synonyms": ["prenup", "antenuptial agreement"],
+    "related": ["postnuptial agreement", "marital property", "divorce"]
+  },
+  {
+    "term": "Affirmative Defense",
+    "category": "Civil Procedure",
+    "definition": "A defense that, even if the plaintiff's allegations are true, defeats or mitigates the claim, such as statute of limitations or self-defense.",
+    "plainEnglish": "'Even if everything you say is true, I still win because of X.'",
+    "synonyms": [],
+    "related": ["answer", "denial", "burden of proof"]
+  },
+  {
+    "term": "Statute of Limitations",
+    "category": "Civil Procedure",
+    "definition": "A law setting the maximum time after an event within which a lawsuit may be filed.",
+    "plainEnglish": "The deadline for filing a lawsuit.",
+    "synonyms": ["limitations period"],
+    "related": ["statute of repose", "tolling", "accrual"]
+  },
+  {
+    "term": "Tolling",
+    "category": "Civil Procedure",
+    "definition": "The legal suspension or pausing of a statute of limitations, preventing the time from running during the tolled period.",
+    "plainEnglish": "Pausing the clock on the statute of limitations.",
+    "synonyms": [],
+    "related": ["statute of limitations", "equitable tolling", "minority tolling"]
+  },
+  {
+    "term": "Burden of Proof",
+    "category": "Evidence",
+    "definition": "The obligation of a party to prove disputed facts to a specified level of certainty, encompassing both the burden of production and the burden of persuasion.",
+    "plainEnglish": "Whose job it is to prove what, and how convincingly.",
+    "synonyms": [],
+    "related": ["preponderance", "clear and convincing", "beyond a reasonable doubt"]
+  },
+  {
+    "term": "Injunction",
+    "category": "Remedies",
+    "definition": "A court order requiring a party to do or refrain from doing specific acts; may be temporary, preliminary, or permanent.",
+    "plainEnglish": "A court order making someone do—or stop doing—something.",
+    "synonyms": ["restraining order", "injunctive relief"],
+    "related": ["TRO", "preliminary injunction", "permanent injunction", "equitable relief"]
+  },
+  {
+    "term": "Temporary Restraining Order",
+    "category": "Remedies",
+    "definition": "An emergency, short-term injunction issued without full hearing to prevent immediate, irreparable harm pending a fuller hearing on a preliminary injunction.",
+    "plainEnglish": "An emergency, short-term court order to prevent immediate harm.",
+    "synonyms": ["TRO"],
+    "related": ["preliminary injunction", "ex parte", "irreparable harm"]
+  },
+  {
+    "term": "Preliminary Injunction",
+    "category": "Remedies",
+    "definition": "An injunction issued before trial to preserve the status quo, requiring the moving party to show likelihood of success, irreparable harm, and balance of equities in their favor.",
+    "plainEnglish": "A court order issued early in a case to hold things in place until trial.",
+    "synonyms": ["interlocutory injunction"],
+    "related": ["TRO", "permanent injunction", "irreparable harm"]
+  },
+  {
+    "term": "Specific Intent",
+    "category": "Criminal Law",
+    "definition": "The mental state required for certain crimes where the defendant must intend a specific further consequence beyond the act itself, such as intent to permanently deprive in larceny.",
+    "plainEnglish": "Intending not just the act, but a specific further outcome.",
+    "synonyms": [],
+    "related": ["general intent", "mens rea", "premeditation"]
+  },
+  {
+    "term": "General Intent",
+    "category": "Criminal Law",
+    "definition": "The mental state required for crimes where the defendant need only intend the prohibited act itself, without intent for a further consequence.",
+    "plainEnglish": "Intending the act itself, but not necessarily a specific further outcome.",
+    "synonyms": [],
+    "related": ["specific intent", "mens rea", "knowledge"]
+  },
+  {
+    "term": "Conspiracy",
+    "category": "Criminal Law",
+    "definition": "An agreement between two or more persons to commit an unlawful act, typically requiring an overt act in furtherance.",
+    "plainEnglish": "A plot between two or more people to commit a crime.",
+    "synonyms": [],
+    "related": ["attempt", "solicitation", "accomplice", "overt act"]
+  },
+  {
+    "term": "Attempt",
+    "category": "Criminal Law",
+    "definition": "An inchoate crime consisting of an intent to commit a specific offense plus a substantial step toward its commission.",
+    "plainEnglish": "Trying to commit a crime but not actually completing it.",
+    "synonyms": [],
+    "related": ["conspiracy", "solicitation", "inchoate crimes", "substantial step"]
+  },
+  {
+    "term": "Solicitation",
+    "category": "Criminal Law",
+    "definition": "An inchoate crime consisting of asking, encouraging, or commanding another person to commit a crime.",
+    "plainEnglish": "Asking, encouraging, or hiring someone else to commit a crime.",
+    "synonyms": [],
+    "related": ["conspiracy", "attempt", "inchoate crimes"]
+  },
+  {
+    "term": "Accomplice",
+    "category": "Criminal Law",
+    "definition": "A person who knowingly assists or encourages another to commit a crime, sharing in the principal's criminal intent.",
+    "plainEnglish": "Someone who helps another person commit a crime.",
+    "synonyms": ["aider and abettor"],
+    "related": ["accessory", "principal", "conspirator"]
+  },
+  {
+    "term": "Necessity",
+    "category": "Criminal Law",
+    "definition": "A defense justifying otherwise criminal conduct undertaken to prevent a greater imminent harm.",
+    "plainEnglish": "Breaking the law to prevent a worse harm.",
+    "synonyms": ["choice of evils"],
+    "related": ["duress", "justification", "self-defense"]
+  },
+  {
+    "term": "Entrapment",
+    "category": "Criminal Law",
+    "definition": "A defense that the defendant was induced by law enforcement to commit a crime they would not otherwise have committed.",
+    "plainEnglish": "When the police talk you into committing a crime you wouldn't have committed on your own.",
+    "synonyms": [],
+    "related": ["predisposition", "outrageous government conduct"]
+  },
+  {
+    "term": "Power of Sale",
+    "category": "Property",
+    "definition": "A provision in a mortgage or deed of trust authorizing the lender to sell the property upon default without going through judicial foreclosure.",
+    "plainEnglish": "A clause letting the lender sell the property without going to court if you default.",
+    "synonyms": [],
+    "related": ["foreclosure", "deed of trust", "judicial foreclosure"]
+  },
+  {
+    "term": "Foreclosure",
+    "category": "Property",
+    "definition": "The legal process by which a lender takes possession of mortgaged property when the borrower defaults on payments.",
+    "plainEnglish": "The bank taking your house when you stop paying the mortgage.",
+    "synonyms": [],
+    "related": ["mortgage", "default", "redemption", "deed of trust"]
+  },
+  {
+    "term": "Quitclaim Deed",
+    "category": "Property",
+    "definition": "A deed transferring whatever interest the grantor has in real property, without warranties about the quality of title.",
+    "plainEnglish": "A deed that transfers whatever ownership the seller has—no guarantees.",
+    "synonyms": [],
+    "related": ["warranty deed", "deed", "title"]
+  },
+  {
+    "term": "Warranty Deed",
+    "category": "Property",
+    "definition": "A deed in which the grantor guarantees clear title to the property and promises to defend against any claims.",
+    "plainEnglish": "A deed where the seller guarantees they actually own the property free and clear.",
+    "synonyms": [],
+    "related": ["quitclaim deed", "title insurance", "covenants of title"]
+  },
+  {
+    "term": "Lien",
+    "category": "Property",
+    "definition": "A legal claim or charge on property as security for payment of a debt or performance of an obligation.",
+    "plainEnglish": "A legal claim against property securing a debt.",
+    "synonyms": ["encumbrance"],
+    "related": ["mortgage", "judgment lien", "mechanic's lien"]
+  },
+  {
+    "term": "Caveat",
+    "category": "Latin Maxims",
+    "definition": "A warning or caution; in legal practice, often a formal notice filed to delay or prevent action.",
+    "plainEnglish": "A warning or qualifier.",
+    "synonyms": ["warning", "caution"],
+    "related": ["caveat emptor", "caveat venditor", "warning"]
+  },
+  {
+    "term": "Privity",
+    "category": "Contracts",
+    "definition": "A direct legal relationship between parties (e.g., privity of contract), historically required to enforce certain rights or obligations.",
+    "plainEnglish": "Being in a direct legal relationship with someone (like a direct contract).",
+    "synonyms": [],
+    "related": ["third-party beneficiary", "privity of contract", "privity of estate"]
+  },
+  {
+    "term": "Equity",
+    "category": "Remedies",
+    "definition": "A body of law developed to address the rigidity of common law, providing remedies based on fairness; also refers to the value of an ownership interest.",
+    "plainEnglish": "Fairness-based justice that fills the gaps in strict legal rules; also, the ownership value in an asset.",
+    "synonyms": [],
+    "related": ["equitable remedy", "injunction", "specific performance"]
+  },
+  {
+    "term": "Equitable Remedy",
+    "category": "Remedies",
+    "definition": "A non-monetary remedy granted in equity, such as injunctions, specific performance, or rescission, available when legal remedies are inadequate.",
+    "plainEnglish": "A non-money remedy—like making someone do, or stop doing, something.",
+    "synonyms": [],
+    "related": ["injunction", "specific performance", "rescission", "constructive trust"]
+  },
+  {
+    "term": "Rescission",
+    "category": "Remedies",
+    "definition": "An equitable remedy that cancels a contract and restores the parties to their pre-contract positions.",
+    "plainEnglish": "Undoing a contract and putting everyone back where they started.",
+    "synonyms": [],
+    "related": ["restitution", "reformation", "voidable"]
+  },
+  {
+    "term": "Reformation",
+    "category": "Remedies",
+    "definition": "An equitable remedy correcting a written contract to reflect the parties' true agreement when the writing contains a mutual mistake or fraud.",
+    "plainEnglish": "Rewriting a contract to fix what the parties actually agreed to but mistyped.",
+    "synonyms": [],
+    "related": ["rescission", "mutual mistake", "scrivener's error"]
+  },
+  {
+    "term": "Restitution",
+    "category": "Remedies",
+    "definition": "A remedy returning a party to their original position by requiring the wrongdoer to give back what they unjustly gained.",
+    "plainEnglish": "Making the wrongdoer give back what they wrongly got.",
+    "synonyms": [],
+    "related": ["unjust enrichment", "rescission", "disgorgement"]
+  },
+  {
+    "term": "Unjust Enrichment",
+    "category": "Remedies",
+    "definition": "An equitable doctrine requiring a person who has unfairly benefited at another's expense to return the benefit or its value.",
+    "plainEnglish": "When someone gets a benefit they shouldn't have kept—the law makes them give it back.",
+    "synonyms": [],
+    "related": ["restitution", "quantum meruit", "quasi-contract"]
+  },
+  {
+    "term": "Quantum Meruit",
+    "category": "Contracts",
+    "definition": "An equitable doctrine allowing recovery of the reasonable value of services provided when no enforceable contract exists.",
+    "plainEnglish": "'As much as deserved'—paying someone the fair value of their work even without a formal contract.",
+    "synonyms": ["as much as he deserved"],
+    "related": ["quasi-contract", "unjust enrichment", "implied contract"]
+  },
+  {
+    "term": "Quasi-Contract",
+    "category": "Contracts",
+    "definition": "An obligation imposed by law to prevent unjust enrichment, even though no actual contract exists between the parties.",
+    "plainEnglish": "Not a real contract, but the law treats it like one to prevent unfairness.",
+    "synonyms": ["implied-in-law contract"],
+    "related": ["unjust enrichment", "quantum meruit", "implied contract"]
+  },
+  {
+    "term": "Affidavit",
+    "category": "Evidence",
+    "definition": "A written statement of facts sworn to under oath before an authorized officer such as a notary.",
+    "plainEnglish": "A sworn written statement.",
+    "synonyms": [],
+    "related": ["declaration", "deposition", "notary public"]
+  },
+  {
+    "term": "Declaration",
+    "category": "Evidence",
+    "definition": "A written statement made under penalty of perjury, similar to an affidavit but not requiring a notary in many jurisdictions.",
+    "plainEnglish": "A written statement made under penalty of perjury—like an affidavit but no notary required.",
+    "synonyms": [],
+    "related": ["affidavit", "perjury", "verified statement"]
+  },
+  {
+    "term": "Perjury",
+    "category": "Criminal Law",
+    "definition": "The criminal offense of knowingly making a false statement under oath in a judicial proceeding.",
+    "plainEnglish": "Lying under oath.",
+    "synonyms": [],
+    "related": ["false statement", "oath", "subornation of perjury"]
+  },
+  {
+    "term": "Contempt of Court",
+    "category": "Civil Procedure",
+    "definition": "Conduct that defies the authority of a court, such as disobeying an order or disrupting proceedings; may be civil or criminal.",
+    "plainEnglish": "Disobeying or disrespecting the court—you can be jailed or fined for it.",
+    "synonyms": [],
+    "related": ["civil contempt", "criminal contempt", "sanction"]
+  },
+  {
+    "term": "Sanction",
+    "category": "Civil Procedure",
+    "definition": "A penalty imposed by a court or other authority for violation of a rule, often in the form of fines, dismissal, or evidentiary preclusion.",
+    "plainEnglish": "A punishment imposed by the court for misconduct.",
+    "synonyms": ["penalty"],
+    "related": ["Rule 11 sanctions", "contempt", "discovery sanctions"]
+  },
+  {
+    "term": "Default Judgment",
+    "category": "Civil Procedure",
+    "definition": "A judgment entered against a party who fails to plead or otherwise defend an action.",
+    "plainEnglish": "Winning automatically because the other side didn't show up or respond.",
+    "synonyms": [],
+    "related": ["default", "service of process", "vacate"]
+  },
+  {
+    "term": "Settlement",
+    "category": "Civil Procedure",
+    "definition": "An agreement between parties to resolve a dispute, typically involving payment and a release of claims, ending the litigation.",
+    "plainEnglish": "Resolving the case before or during trial with an agreement, usually for money.",
+    "synonyms": ["accord and satisfaction", "compromise"],
+    "related": ["release", "mediation", "settlement agreement"]
+  },
+  {
+    "term": "Release",
+    "category": "Contracts",
+    "definition": "A written agreement in which one party gives up a legal claim or right against another.",
+    "plainEnglish": "A document where you agree to give up your right to sue.",
+    "synonyms": ["waiver"],
+    "related": ["settlement", "covenant not to sue", "indemnification"]
+  },
+  {
+    "term": "Mediation",
+    "category": "Alternative Dispute Resolution",
+    "definition": "A voluntary, non-binding process in which a neutral third party facilitates negotiations between disputing parties to help them reach a mutually acceptable resolution.",
+    "plainEnglish": "A neutral helps the parties try to work out a deal—no decision is imposed.",
+    "synonyms": [],
+    "related": ["arbitration", "negotiation", "ADR"]
+  },
+  {
+    "term": "Arbitration",
+    "category": "Alternative Dispute Resolution",
+    "definition": "A process where parties submit a dispute to a neutral third party (arbitrator) whose decision is typically binding and enforceable, often pursuant to a contractual arbitration clause.",
+    "plainEnglish": "A private alternative to court where an arbitrator decides the case—usually binding.",
+    "synonyms": [],
+    "related": ["mediation", "arbitration clause", "Federal Arbitration Act"]
+  },
+  {
+    "term": "Negotiation",
+    "category": "Alternative Dispute Resolution",
+    "definition": "A direct discussion between parties (or their representatives) aimed at reaching agreement, without the involvement of a neutral third party.",
+    "plainEnglish": "The parties (and their lawyers) just hash it out directly.",
+    "synonyms": [],
+    "related": ["mediation", "arbitration", "settlement"]
+  },
+  {
+    "term": "Standing Order",
+    "category": "Civil Procedure",
+    "definition": "A general order issued by a judge or court that applies to all cases or all matters of a certain type before that court, rather than to a specific case.",
+    "plainEnglish": "A judge's general rules that apply to every case in their court.",
+    "synonyms": ["general order"],
+    "related": ["local rules", "scheduling order"]
+  },
+  {
+    "term": "Brief",
+    "category": "Civil Procedure",
+    "definition": "A written legal document submitted to a court arguing the law and facts in support of a party's position on a motion, appeal, or other issue.",
+    "plainEnglish": "A formal written argument submitted to the court.",
+    "synonyms": ["memorandum", "memo"],
+    "related": ["motion", "appellate brief", "argument"]
+  },
+  {
+    "term": "Holding",
+    "category": "Civil Procedure",
+    "definition": "The court's determination of a matter of law that is necessary to its decision and is binding precedent on later cases.",
+    "plainEnglish": "The legal rule the court actually decided—the binding part of the opinion.",
+    "synonyms": [],
+    "related": ["dicta", "ratio decidendi", "precedent", "opinion"]
+  },
+  {
+    "term": "Dicta",
+    "category": "Civil Procedure",
+    "definition": "Statements in a judicial opinion that are not necessary to the decision and therefore not binding as precedent.",
+    "plainEnglish": "Things a court says in an opinion that aren't the actual rule of the case—not binding.",
+    "synonyms": ["obiter dicta", "dictum"],
+    "related": ["holding", "precedent", "opinion"]
+  },
+  {
+    "term": "Precedent",
+    "category": "Civil Procedure",
+    "definition": "A prior court decision that serves as authority for deciding later cases involving similar issues.",
+    "plainEnglish": "An earlier ruling that guides (or binds) future cases on the same issue.",
+    "synonyms": ["case law"],
+    "related": ["stare decisis", "binding authority", "persuasive authority"]
+  },
+  {
+    "term": "Binding Authority",
+    "category": "Civil Procedure",
+    "definition": "Legal authority that a court is required to follow, such as decisions of higher courts in the same jurisdiction.",
+    "plainEnglish": "Law a court has to follow.",
+    "synonyms": ["mandatory authority"],
+    "related": ["persuasive authority", "stare decisis", "precedent"]
+  },
+  {
+    "term": "Persuasive Authority",
+    "category": "Civil Procedure",
+    "definition": "Legal authority that a court may consider but is not required to follow, such as decisions from other jurisdictions or law review articles.",
+    "plainEnglish": "Law a court can consider but isn't required to follow.",
+    "synonyms": [],
+    "related": ["binding authority", "secondary authority"]
+  },
+  {
+    "term": "Concurring Opinion",
+    "category": "Civil Procedure",
+    "definition": "A separate opinion by a judge agreeing with the result of the majority but offering different or additional reasoning.",
+    "plainEnglish": "A judge who agrees with the outcome but for different reasons.",
+    "synonyms": ["concurrence"],
+    "related": ["majority opinion", "dissent", "plurality"]
+  },
+  {
+    "term": "Dissenting Opinion",
+    "category": "Civil Procedure",
+    "definition": "A separate opinion by a judge disagreeing with the majority's result, reasoning, or both.",
+    "plainEnglish": "A judge's opinion saying the majority got it wrong.",
+    "synonyms": ["dissent"],
+    "related": ["concurrence", "majority opinion"]
+  },
+  {
+    "term": "Pleading",
+    "category": "Civil Procedure",
+    "definition": "A formal written statement filed with the court setting forth a party's claims or defenses, such as a complaint, answer, or reply.",
+    "plainEnglish": "The formal documents that set out each side's claims and defenses.",
+    "synonyms": [],
+    "related": ["complaint", "answer", "motion"]
+  },
+  {
+    "term": "Privilege Against Self-Incrimination",
+    "category": "Constitutional Law",
+    "definition": "The Fifth Amendment right not to be compelled to testify against oneself in a criminal case.",
+    "plainEnglish": "The right to 'plead the Fifth' and refuse to answer questions that could incriminate you.",
+    "synonyms": ["Fifth Amendment privilege", "right to remain silent"],
+    "related": ["Miranda warning", "Fifth Amendment", "immunity"]
+  },
+  {
+    "term": "Right to Counsel",
+    "category": "Constitutional Law",
+    "definition": "The Sixth Amendment right of a criminal defendant to be represented by an attorney at critical stages of the prosecution, including at trial.",
+    "plainEnglish": "The right to a lawyer in criminal cases (and to a free one if you can't afford it).",
+    "synonyms": [],
+    "related": ["Miranda warning", "public defender", "Sixth Amendment", "Gideon"]
+  },
+  {
+    "term": "Tort Claim",
+    "category": "Torts",
+    "definition": "A civil claim seeking damages for a wrongful act causing harm, distinct from a claim for breach of contract.",
+    "plainEnglish": "A lawsuit over a wrongful act causing injury (not a contract violation).",
+    "synonyms": [],
+    "related": ["tort", "cause of action", "civil action"]
+  },
+  {
+    "term": "Cause of Action",
+    "category": "Civil Procedure",
+    "definition": "The legal basis for a lawsuit—the facts and legal theory that entitle a plaintiff to a remedy from a defendant.",
+    "plainEnglish": "The legal reason for the lawsuit—the theory and facts that justify suing.",
+    "synonyms": ["claim", "theory of liability"],
+    "related": ["complaint", "elements", "right of action"]
+  },
+  {
+    "term": "Notice",
+    "category": "Civil Procedure",
+    "definition": "Formal information given to a party about a legal proceeding or matter affecting their rights, required by due process before adverse action.",
+    "plainEnglish": "Officially telling someone about a legal matter that affects them.",
+    "synonyms": [],
+    "related": ["service of process", "due process", "constructive notice"]
+  },
+  {
+    "term": "Constructive Notice",
+    "category": "Property",
+    "definition": "Notice imputed by law to a person based on information that could have been discovered through reasonable inquiry, such as recorded documents.",
+    "plainEnglish": "Notice you're treated as having even if you didn't actually know, because the information was publicly available.",
+    "synonyms": [],
+    "related": ["actual notice", "recording statute", "inquiry notice"]
+  },
+  {
+    "term": "Reasonable Person",
+    "category": "Torts",
+    "definition": "A legal fiction representing an ordinarily prudent person, used as the objective standard for evaluating conduct, especially in negligence cases.",
+    "plainEnglish": "The hypothetical 'average careful person' the law compares your behavior to.",
+    "synonyms": ["reasonable man", "reasonable prudent person"],
+    "related": ["negligence", "standard of care", "duty"]
+  },
+  {
+    "term": "Foreseeability",
+    "category": "Torts",
+    "definition": "Whether a reasonable person could have anticipated the harm that resulted from their conduct; central to duty and proximate cause analysis.",
+    "plainEnglish": "Whether a reasonable person could have seen the harm coming.",
+    "synonyms": [],
+    "related": ["proximate cause", "duty", "Palsgraf"]
+  },
+  {
+    "term": "Frivolous Lawsuit",
+    "category": "Civil Procedure",
+    "definition": "A lawsuit lacking any legal merit or factual basis, often filed for improper purposes and subject to sanctions.",
+    "plainEnglish": "A lawsuit with no real legal basis—the kind that can get the filer sanctioned.",
+    "synonyms": [],
+    "related": ["Rule 11", "sanction", "malicious prosecution"]
+  },
+  {
+    "term": "Malicious Prosecution",
+    "category": "Torts",
+    "definition": "A tort claim against someone who initiated a baseless legal action with malice and without probable cause, where the prior action terminated in the plaintiff's favor.",
+    "plainEnglish": "Suing someone for suing you in bad faith with no legal basis.",
+    "synonyms": [],
+    "related": ["abuse of process", "frivolous lawsuit", "probable cause"]
+  },
+  {
+    "term": "Abuse of Process",
+    "category": "Torts",
+    "definition": "A tort consisting of using a legal process primarily for an ulterior purpose not intended by the law, even if the process itself was originally proper.",
+    "plainEnglish": "Misusing a legal procedure (even a legitimate one) for an improper purpose.",
+    "synonyms": [],
+    "related": ["malicious prosecution", "tort"]
+  },
+  {
+    "term": "Conversion",
+    "category": "Torts",
+    "definition": "The wrongful exercise of control over another's personal property to the extent that justifies forcing payment of full value.",
+    "plainEnglish": "Treating someone else's property as your own—the civil version of theft.",
+    "synonyms": [],
+    "related": ["trespass to chattels", "replevin", "personal property"]
+  },
+  {
+    "term": "Trespass",
+    "category": "Torts",
+    "definition": "An unlawful intrusion that interferes with another's right to possession of property, whether to land (trespass to land) or personal property (trespass to chattels).",
+    "plainEnglish": "Entering or interfering with someone else's property without permission.",
+    "synonyms": [],
+    "related": ["trespass to land", "trespass to chattels", "nuisance"]
+  },
+  {
+    "term": "Nuisance",
+    "category": "Torts",
+    "definition": "A tort involving substantial and unreasonable interference with the use and enjoyment of land (private nuisance) or with a public right (public nuisance).",
+    "plainEnglish": "Substantially interfering with someone's use of their property (private) or with public rights (public).",
+    "synonyms": [],
+    "related": ["trespass", "private nuisance", "public nuisance"]
+  },
+  {
+    "term": "Fraud",
+    "category": "Torts",
+    "definition": "An intentional misrepresentation of a material fact, made with knowledge of falsity and intent to induce reliance, causing damages.",
+    "plainEnglish": "Intentionally lying to trick someone into doing something that harms them.",
+    "synonyms": ["deceit", "intentional misrepresentation"],
+    "related": ["misrepresentation", "negligent misrepresentation", "scienter"]
+  },
+  {
+    "term": "Misrepresentation",
+    "category": "Torts",
+    "definition": "A false statement of material fact made by one party that another reasonably relies on to their detriment; may be innocent, negligent, or fraudulent.",
+    "plainEnglish": "A false statement someone reasonably believed and acted on, to their detriment.",
+    "synonyms": [],
+    "related": ["fraud", "scienter", "reliance"]
+  },
+  {
+    "term": "Scienter",
+    "category": "Torts",
+    "definition": "Knowledge of wrongdoing or falsity, particularly in fraud cases; an element requiring proof that the defendant knew of the falsity or acted with reckless disregard.",
+    "plainEnglish": "'Knowingly'—the requirement that the defendant knew what they were doing was wrong or false.",
+    "synonyms": ["guilty knowledge"],
+    "related": ["fraud", "knowledge", "intent"]
+  },
+  {
+    "term": "Reliance",
+    "category": "Torts",
+    "definition": "The act of depending on a representation or promise, often a required element in claims of fraud, misrepresentation, and promissory estoppel.",
+    "plainEnglish": "Acting based on what someone said or promised.",
+    "synonyms": ["reasonable reliance"],
+    "related": ["fraud", "misrepresentation", "promissory estoppel"]
+  },
+  {
+    "term": "Good Faith",
+    "category": "Contracts",
+    "definition": "Honesty in fact and the observance of reasonable commercial standards of fair dealing, often an implied duty in contractual performance.",
+    "plainEnglish": "Acting honestly and fairly.",
+    "synonyms": ["bona fide"],
+    "related": ["duty of good faith and fair dealing", "fiduciary duty", "bad faith"]
+  },
+  {
+    "term": "Bad Faith",
+    "category": "Contracts",
+    "definition": "Dishonest or unfair conduct, especially the deliberate breach of the duty of good faith and fair dealing in contracts.",
+    "plainEnglish": "Acting dishonestly or unfairly, often deliberately.",
+    "synonyms": ["mala fide"],
+    "related": ["good faith", "insurance bad faith", "fraud"]
+  },
+  {
+    "term": "Reasonable Doubt",
+    "category": "Criminal Procedure",
+    "definition": "A doubt based on reason and common sense after consideration of all the evidence; the level of doubt that prevents conviction in a criminal case.",
+    "plainEnglish": "A real, common-sense doubt—the kind that means a jury can't convict.",
+    "synonyms": [],
+    "related": ["beyond a reasonable doubt", "burden of proof", "criminal trial"]
+  },
+  {
+    "term": "Tortfeasor",
+    "category": "Torts",
+    "definition": "A person who commits a tort and is therefore liable to the injured party.",
+    "plainEnglish": "Someone who commits a tort.",
+    "synonyms": ["wrongdoer"],
+    "related": ["tort", "joint tortfeasor", "liability"]
+  },
+  {
+    "term": "Joint Tortfeasor",
+    "category": "Torts",
+    "definition": "One of two or more persons whose combined wrongful acts caused a single injury, potentially leading to joint and several liability.",
+    "plainEnglish": "One of multiple wrongdoers whose acts combined to cause a single injury.",
+    "synonyms": [],
+    "related": ["joint and several liability", "contribution", "indemnification"]
+  },
+  {
+    "term": "Wrongful Death",
+    "category": "Torts",
+    "definition": "A statutory cause of action allowing survivors to sue for damages when a person's death is caused by another's wrongful or negligent act.",
+    "plainEnglish": "Suing because someone's wrongful act caused a death.",
+    "synonyms": [],
+    "related": ["survival action", "damages", "negligence"]
+  },
+  {
+    "term": "Survival Action",
+    "category": "Torts",
+    "definition": "A cause of action that survives the death of the injured party, allowing the estate to recover damages the deceased could have claimed if they had lived.",
+    "plainEnglish": "Damages the dead person could have claimed if they'd lived—pursued by the estate.",
+    "synonyms": [],
+    "related": ["wrongful death", "estate", "damages"]
+  },
+  {
+    "term": "Imminent",
+    "category": "Torts",
+    "definition": "About to occur immediately; required for several legal concepts such as assault and self-defense.",
+    "plainEnglish": "Right about to happen.",
+    "synonyms": ["immediate", "impending"],
+    "related": ["assault", "self-defense", "necessity"]
+  },
+  {
+    "term": "Causation in Fact",
+    "category": "Torts",
+    "definition": "The factual link between conduct and harm, typically shown by the but-for test or, in some cases, the substantial factor test.",
+    "plainEnglish": "The factual showing that the defendant's act actually caused the harm.",
+    "synonyms": ["actual cause"],
+    "related": ["but-for causation", "substantial factor", "proximate cause"]
+  },
+  {
+    "term": "Specific Performance",
+    "category": "Remedies",
+    "definition": "An equitable remedy requiring a party to perform the exact obligations specified in a contract, granted when monetary damages would be inadequate.",
+    "plainEnglish": "The court orders someone to actually do what they promised, not just pay money.",
+    "synonyms": [],
+    "related": ["injunction", "equitable remedy", "damages"]
+  },
+  {
+    "term": "Garnishment",
+    "category": "Remedies",
+    "definition": "A legal procedure by which a creditor obtains payment of a debt directly from a third party (such as the debtor's employer or bank) who owes money to the debtor.",
+    "plainEnglish": "Pulling money out of someone's wages or bank account to pay a judgment.",
+    "synonyms": ["wage garnishment"],
+    "related": ["judgment lien", "writ of execution", "levy"]
+  },
+  {
+    "term": "Lis Pendens",
+    "category": "Property",
+    "definition": "A notice filed in public records warning that title to a specific property is the subject of pending litigation.",
+    "plainEnglish": "A public notice that a property is tied up in a lawsuit.",
+    "synonyms": ["notice of pendency"],
+    "related": ["recording", "title", "litigation"]
+  },
+  {
+    "term": "Marketable Title",
+    "category": "Property",
+    "definition": "Title to real property free from reasonable doubt or defect, such that a prudent buyer would accept it; a common requirement in real estate contracts.",
+    "plainEnglish": "Title clean enough that a reasonable buyer would accept it.",
+    "synonyms": ["clear title", "good and marketable title"],
+    "related": ["title insurance", "encumbrance", "warranty deed"]
+  },
+  {
+    "term": "Estoppel",
+    "category": "Civil Procedure",
+    "definition": "A doctrine preventing a party from asserting a claim or defense inconsistent with their prior conduct, representations, or judicial findings.",
+    "plainEnglish": "Being barred from making an argument because of something you said or did earlier.",
+    "synonyms": [],
+    "related": ["equitable estoppel", "promissory estoppel", "collateral estoppel"]
+  }
+]
